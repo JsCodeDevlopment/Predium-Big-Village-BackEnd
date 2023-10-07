@@ -1,10 +1,13 @@
 import { fastify } from "fastify";
+import { createPerson } from "./routes/CreateUser";
 
 export const server = fastify()
 
+server.register(createPerson)
+
 server.listen({
     port: 3333
-}).then(()=>{
+}).then((err)=>{
     console.log('running on http://localhost:3333')
 })
 

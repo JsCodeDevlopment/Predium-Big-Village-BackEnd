@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@prisma/client": "^5.4.1",
-    "fastify": "^4.23.2"
+    "fastify": "^4.23.2",
+    "postgres": "^3.3.5"
   }
 }

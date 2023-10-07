@@ -1,0 +1,184 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Owners {
+  id         String       @id @default(uuid()) @db.Uuid
+  Apartments Apartments[]
+  person     People       @relation(fields: [personId], references: [id])
+  personId   String       @unique @map("person_id") @db.Uuid
+}
+
+model Apartments {
+  id               String             @id @default(uuid()) @db.Uuid
+  number           Int
+  block            String             @unique
+  owner            Owners             @relation(fields: [ownerId], references: [id])
+  ownerId          String             @unique @map("owner_id") @db.Uuid
+  residents        Residents[]
+  fines            Fines[]
+  hallReservations HallReservations[]
+  complaints       Complaints[]
+  warnings         Warnings[]
+  vehicles         Vehicles[]
+  serviceRequests  ServiceRequests[]
+}
+
+enum ResidentType {
+  Owner
+  Tenant
+}
+
+model Residents {
+  id              String            @id @default(uuid()) @db.Uuid
+  name            String
+  accessTag       String            @unique @map("access_tag")
+  type            ResidentType
+  Apartments      Apartments        @relation(fields: [apartmentId], references: [id])
+  apartmentId     String            @map("apartment_id") @db.Uuid
+  pets            Pets[]
+  Visitors        Visitors?
+  serviceRequests ServiceRequests[]
+  person          People            @relation(fields: [personId], references: [id])
+  personId        String            @unique @map("person_id") @db.Uuid
+}
+
+model Pets {
+  id         String    @id @default(uuid()) @db.Uuid
+  name       String
+  type       String
+  breed      String
+  age        Int
+  size       Float
+  weight     Float
+  notes      String?   @db.Text
+  Residents  Residents @relation(fields: [residentId], references: [id])
+  residentId String    @map("resident_id") @db.Uuid
+}
+
+model Visitors {
+  id                       String    @id @default(uuid()) @db.Uuid
+  name                     String
+  cep                      String
+  street                   String
+  street_number            String
+  complement               String
+  neighborhood             String
+  city                     String
+  state                    String
+  relationshipWithResident String    @map("relationship_with_resident")
+  resident                 Residents @relation(fields: [residentId], references: [id])
+  residentId               String    @unique @map("resident_id") @db.Uuid
+  person                   People    @relation(fields: [personId], references: [id])
+  personId                 String    @unique @map("person_id") @db.Uuid
+}
+
+enum FineStatus {
+  PaymentInProgress
+  Canceled
+  Paid
+}
+
+model Fines {
+  id          String     @id @default(uuid()) @db.Uuid
+  value       Decimal
+  date        DateTime
+  status      FineStatus
+  Apartments  Apartments @relation(fields: [apartmentId], references: [id])
+  apartmentId String     @map("apartment_id") @db.Uuid
+}
+
+enum HallReservationStatus {
+  Pending
+  Confirmed
+  Canceled
+  Finished
+}
+
+model HallReservations {
+  id          String                @id @default(uuid()) @db.Uuid
+  date        DateTime              @unique
+  status      HallReservationStatus
+  Apartments  Apartments            @relation(fields: [apartmentId], references: [id])
+  apartmentId String                @map("apartment_id") @db.Uuid
+}
+
+model Complaints {
+  id          String     @id @default(uuid()) @db.Uuid
+  details     String     @db.Text
+  date        DateTime
+  Apartments  Apartments @relation(fields: [apartmentId], references: [id])
+  apartmentId String     @map("apartment_id") @db.Uuid
+}
+
+model Warnings {
+  id          String     @id @default(uuid()) @db.Uuid
+  details     String     @db.Text
+  date        DateTime
+  Apartments  Apartments @relation(fields: [apartmentId], references: [id])
+  apartmentId String     @map("apartment_id") @db.Uuid
+}
+
+enum VehicleType {
+  Motorcycle
+  Car
+}
+
+model Vehicles {
+  id          String      @id @default(uuid()) @db.Uuid
+  type        VehicleType
+  brand       String
+  plate       String
+  Apartments  Apartments  @relation(fields: [apartmentId], references: [id])
+  apartmentId String      @map("apartment_id") @db.Uuid
+}
+
+model Services {
+  id              String            @id @default(uuid()) @db.Uuid
+  title           String
+  description     String            @db.Text
+  serviceRequests ServiceRequests[]
+}
+
+model ServiceRequests {
+  id          String      @id @default(uuid()) @db.Uuid
+  date        DateTime
+  Services    Services    @relation(fields: [serviceId], references: [id])
+  serviceId   String      @map("service_id") @db.Uuid
+  Apartments  Apartments? @relation(fields: [apartmentId], references: [id])
+  apartmentId String?     @map("apartment_id") @db.Uuid
+  Residents   Residents?  @relation(fields: [residentId], references: [id])
+  residentId  String?     @map("resident_id") @db.Uuid
+}
+
+model People {
+  id          String     @id @default(uuid()) @db.Uuid
+  name String
+  phoneNumber String     @unique @map("phone_number")
+  email       String     @unique
+  cpf         String     @unique
+  rg          String     @unique
+  Owners      Owners?
+  Residents   Residents?
+  Visitors    Visitors?
+  User        Users?
+}
+
+model Users {
+  id       String    @id @default(uuid()) @db.Uuid
+  password String
+  Person   People    @relation(fields: [personId], references: [id])
+  personId String    @unique @map("person_id") @db.Uuid
+  type     UserRoles
+}
+
+enum UserRoles {
+  ADMIN
+  RESIDENT
+  OWNER
+}

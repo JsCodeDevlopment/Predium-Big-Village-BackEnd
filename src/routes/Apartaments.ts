@@ -6,12 +6,13 @@ export async function apartaments(fastify: FastifyInstance) {
   // Rota para criar um usuário.
     fastify.post("/createnewapartament", async (req, resp) => {
     try {
-      const { number, block } = req.body as Apartments;
+      const { number, block, status } = req.body as Apartments;
 
       const newApartament = await prisma.apartments.create({
         data: {
           number,
-          block
+          block,
+          status
         },
       });
       return newApartament;

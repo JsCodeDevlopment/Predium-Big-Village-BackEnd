@@ -44,4 +44,5 @@ export async function createPerson(fastify: FastifyInstance) {
         resp.status(500).send('Ocorreu um erro ao deletar o usuário.');
       }
   })
+  
 }

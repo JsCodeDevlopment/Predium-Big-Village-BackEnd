@@ -4,7 +4,7 @@ import { FastifyInstance } from "fastify";
 
 export async function user(fastify: FastifyInstance) {
   // Rota para criar um usuário.
-  fastify.post("/user", async (req, resp) => {
+  fastify.post("/createuser", async (req, resp) => {
     try {
       const { password, personId, type } = req.body as Users;
 
@@ -16,4 +16,15 @@ export async function user(fastify: FastifyInstance) {
       resp.status(500).send("Deu merda!");
     }
   });
+  // Rota para exibir todos os usuários
+ fastify.get('/user', async (request, reply) => {
+  try {
+    const user = await prisma.users.findMany();
+
+    return user;
+  } catch (error) {
+    fastify.log.error(error);
+    reply.status(500).send({ error: 'Erro ao obter os apartamentos' });
+  }
+});
 }

@@ -1,4 +1,7 @@
 -- CreateEnum
+CREATE TYPE "Status" AS ENUM ('Ocupado', 'Venda', 'Locacao');
+
+-- CreateEnum
 CREATE TYPE "ResidentType" AS ENUM ('Owner', 'Tenant');
 
 -- CreateEnum
@@ -26,6 +29,7 @@ CREATE TABLE "Apartments" (
     "id" UUID NOT NULL,
     "number" INTEGER NOT NULL,
     "block" TEXT NOT NULL,
+    "status" "Status"[],
     "owner_id" UUID,
 
     CONSTRAINT "Apartments_pkey" PRIMARY KEY ("id")
@@ -172,9 +176,6 @@ CREATE TABLE "Users" (
 
 -- CreateIndex
 CREATE UNIQUE INDEX "Owners_person_id_key" ON "Owners"("person_id");
-
--- CreateIndex
-CREATE UNIQUE INDEX "Apartments_block_key" ON "Apartments"("block");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "Apartments_owner_id_key" ON "Apartments"("owner_id");

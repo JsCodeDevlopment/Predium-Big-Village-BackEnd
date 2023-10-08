@@ -23,7 +23,7 @@ enum Status {
 model Apartments {
   id               String             @id @default(uuid()) @db.Uuid
   number           Int
-  block            String             @unique
+  block            String             
   status           Status[]
   owner            Owners?            @relation(fields: [ownerId], references: [id])
   ownerId          String?            @unique @map("owner_id") @db.Uuid

@@ -26,7 +26,7 @@ CREATE TABLE "Apartments" (
     "id" UUID NOT NULL,
     "number" INTEGER NOT NULL,
     "block" TEXT NOT NULL,
-    "owner_id" UUID NOT NULL,
+    "owner_id" UUID,
 
     CONSTRAINT "Apartments_pkey" PRIMARY KEY ("id")
 );
@@ -213,7 +213,7 @@ CREATE UNIQUE INDEX "Users_person_id_key" ON "Users"("person_id");
 ALTER TABLE "Owners" ADD CONSTRAINT "Owners_person_id_fkey" FOREIGN KEY ("person_id") REFERENCES "People"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "Apartments" ADD CONSTRAINT "Apartments_owner_id_fkey" FOREIGN KEY ("owner_id") REFERENCES "Owners"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "Apartments" ADD CONSTRAINT "Apartments_owner_id_fkey" FOREIGN KEY ("owner_id") REFERENCES "Owners"("id") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "Residents" ADD CONSTRAINT "Residents_apartment_id_fkey" FOREIGN KEY ("apartment_id") REFERENCES "Apartments"("id") ON DELETE RESTRICT ON UPDATE CASCADE;

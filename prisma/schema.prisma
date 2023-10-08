@@ -18,8 +18,8 @@ model Apartments {
   id               String             @id @default(uuid()) @db.Uuid
   number           Int
   block            String             @unique
-  owner            Owners             @relation(fields: [ownerId], references: [id])
-  ownerId          String             @unique @map("owner_id") @db.Uuid
+  owner            Owners?             @relation(fields: [ownerId], references: [id])
+  ownerId          String?             @unique @map("owner_id") @db.Uuid 
   residents        Residents[]
   fines            Fines[]
   hallReservations HallReservations[]
@@ -158,7 +158,7 @@ model ServiceRequests {
 
 model People {
   id          String     @id @default(uuid()) @db.Uuid
-  name String
+  name        String
   phoneNumber String     @unique @map("phone_number")
   email       String     @unique
   cpf         String     @unique

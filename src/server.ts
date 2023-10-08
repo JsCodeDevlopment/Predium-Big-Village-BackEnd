@@ -2,10 +2,12 @@ import { fastify } from "fastify";
 import { createPerson } from "./routes/CreateUser";
 import { user } from "./routes/User";
 import { login } from "./routes/Login";
+import { apartaments } from "./routes/Apartaments";
 
 export const server = fastify({logger: true})
 
 server.register(createPerson)
+server.register(apartaments)
 server.register(user)
 server.register(login)
 

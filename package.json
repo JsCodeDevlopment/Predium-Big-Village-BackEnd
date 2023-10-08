@@ -5,7 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "build": "tsc",
-    "vercel-build": "npx prisma migrate deploy",
+    "vercel-build": "npx prisma migrate deploy && prisma generate",
     "start": "node dist/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --exec ts-node ./src/server.ts"

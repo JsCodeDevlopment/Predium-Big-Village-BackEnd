@@ -14,12 +14,19 @@ model Owners {
   personId   String       @unique @map("person_id") @db.Uuid
 }
 
+enum Status {
+  Ocupado
+  Venda
+  Locacao
+}
+
 model Apartments {
   id               String             @id @default(uuid()) @db.Uuid
   number           Int
   block            String             @unique
-  owner            Owners?             @relation(fields: [ownerId], references: [id])
-  ownerId          String?             @unique @map("owner_id") @db.Uuid 
+  status           Status[]
+  owner            Owners?            @relation(fields: [ownerId], references: [id])
+  ownerId          String?            @unique @map("owner_id") @db.Uuid
   residents        Residents[]
   fines            Fines[]
   hallReservations HallReservations[]

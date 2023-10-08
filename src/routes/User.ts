@@ -19,7 +19,7 @@ export async function user(fastify: FastifyInstance) {
   // Rota para exibir todos os usuários
  fastify.get('/user', async (request, reply) => {
   try {
-    const user = await prisma.users.findMany();
+    const user = await prisma.people.findMany();
 
     return user;
   } catch (error) {

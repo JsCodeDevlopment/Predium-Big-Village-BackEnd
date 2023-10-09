@@ -21,6 +21,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@fastify/cors": "^8.4.0",
     "@prisma/client": "^5.4.1",
     "fastify": "^4.23.2",
     "postgres": "^3.3.5"

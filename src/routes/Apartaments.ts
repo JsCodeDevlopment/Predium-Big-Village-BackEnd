@@ -31,4 +31,27 @@ export async function apartaments(fastify: FastifyInstance) {
       reply.status(500).send({ error: 'Erro ao obter os apartamentos' });
     }
   });
+
+  //Rota para exibir um único ap
+  fastify.get('/apartments/:id',async (req, resp) => {
+    try {
+      const {id} = req.params as {id: string}
+      const apartment = await prisma.apartments.findFirst({
+        where: { id },
+        include: {
+          warnings: true,
+          residents: {
+            include: {
+              pets: true,
+            }
+          },
+          vehicles: true
+        }
+      })
+       return apartment
+    } catch(error) {
+      fastify.log.error(error);
+      resp.status(500).send({ error: 'Erro ao obter os apartamentos' });
+    }
+  })
 }

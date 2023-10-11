@@ -4,7 +4,7 @@ import { FastifyInstance } from "fastify";
 
 export async function apartaments(fastify: FastifyInstance) {
   // Rota para criar um usuário.
-    fastify.post("/createnewapartament", async (req, resp) => {
+    fastify.post("/newapartament", async (req, resp) => {
     try {
       const { number, block, status } = req.body as Apartments;
 

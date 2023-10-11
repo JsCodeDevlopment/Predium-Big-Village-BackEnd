@@ -37,7 +37,19 @@ server
   });
 
 server.get("/", () => {
-  return "Created!";
+  return `Bem Vindo a Predium Big village API
+
+  Rotas ativas {
+    /newapartament: Criar novo apartamento,
+    /login: Verifica o login para executar o login,
+    /newuser: Criar Novo Usuário,
+    /newpeople: Criar nova pessoa,
+    /people/:id: Deleta pessoa pelo id,
+    /user: Exibe os usuários,
+    /apartments/:id: Exibe o apartamento pelo id,
+    /apartments: Exibe todos os apartamentos
+  }
+  `;
 });
 
 // rota para criar algo ex.: POST localhost:3333/user

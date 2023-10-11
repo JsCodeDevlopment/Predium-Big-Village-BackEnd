@@ -6,7 +6,7 @@ export async function createPerson(fastify: FastifyInstance) {
   // Rota para criar um usuário.
     fastify.post("/newpeople", async (req, resp) => {
     try {
-      const { name, phoneNumber, email, cpf, rg } = req.body as People;
+      const { name, phoneNumber, email, cpf, rg} = req.body as People;
 
       const newPerson = await prisma.people.create({
         data: {

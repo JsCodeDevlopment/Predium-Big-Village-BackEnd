@@ -43,9 +43,14 @@ export async function apartaments(fastify: FastifyInstance) {
           residents: {
             include: {
               pets: true,
+              person: true,
+              Visitors: true
             }
           },
-          vehicles: true
+          vehicles: true,
+          owner: true,
+          serviceRequests: true,
+          complaints: true
         }
       })
        return apartment

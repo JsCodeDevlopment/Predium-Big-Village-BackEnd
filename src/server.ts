@@ -49,10 +49,9 @@ server.get("/", () => {
     /apartments/:id: Exibe o apartamento pelo id,
     /apartments: Exibe todos os apartamentos
   }
+
+  Created by: Jonatas S.
+  Github: https://github.com/JsCodeDevlopment
+  Repository: https://github.com/JsCodeDevlopment/Predium-Big-Village-BackEnd
   `;
 });
-
-// rota para criar algo ex.: POST localhost:3333/user
-// rota para deletar algo ex.: DELETE localhost:3333/user/del
-// rota para obter algo ex.: GET localhost:3333/user
-// rota para atualizar algo ex.: PUT localhost:3333/user

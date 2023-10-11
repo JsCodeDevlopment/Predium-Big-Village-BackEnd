@@ -2,7 +2,7 @@ import { People } from "@prisma/client";
 import { prisma } from "../database/prismaClient";
 import { FastifyInstance } from "fastify";
 
-export async function createPerson(fastify: FastifyInstance) {
+export async function People(fastify: FastifyInstance) {
   // Rota para criar um usuário.
     fastify.post("/newpeople", async (req, resp) => {
     try {
@@ -23,7 +23,7 @@ export async function createPerson(fastify: FastifyInstance) {
     }
   });
   // Rota para deletar um usuário.
-  fastify.delete("/people/:id",async (req, resp) => {
+  fastify.delete("/person/:id",async (req, resp) => {
     try{
         const { id } = req.params as {id: string}
         const person = await prisma.people.findUnique({
@@ -44,5 +44,15 @@ export async function createPerson(fastify: FastifyInstance) {
         resp.status(500).send('Ocorreu um erro ao deletar o usuário.');
       }
   })
-  
+  // Rota para exibir todos as pessoas
+ fastify.get('/person', async (request, reply) => {
+  try {
+    const user = await prisma.people.findMany();
+
+    return user;
+  } catch (error) {
+    fastify.log.error(error);
+    reply.status(500).send({ error: 'Erro ao obter os apartamentos' });
+  }
+});
 }

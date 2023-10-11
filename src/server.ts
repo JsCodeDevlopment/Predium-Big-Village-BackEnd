@@ -1,9 +1,11 @@
 import { fastify } from "fastify";
-import { createPerson } from "./routes/CreateUser";
+import { People } from "./routes/People";
 import { user } from "./routes/User";
 import { login } from "./routes/Login";
 import { apartaments } from "./routes/Apartaments";
 import cors, { FastifyCorsOptions } from "@fastify/cors";
+import { pet } from "./routes/Pet";
+import { Residents } from "./routes/Residents";
 
 const whiteList = ["http://localhost:5173"];
 
@@ -23,10 +25,12 @@ export const server = fastify({ logger: true });
 
 server.register(cors, corsOptions)
 
-server.register(createPerson);
+server.register(People);
 server.register(apartaments);
+server.register(pet);
 server.register(user);
 server.register(login);
+server.register(Residents);
 
 server
   .listen({
@@ -43,11 +47,14 @@ server.get("/", () => {
     /newapartament: Criar novo apartamento,
     /login: Verifica o login para executar o login,
     /newuser: Criar Novo Usuário,
+    /users: Exibe os usuários,
     /newpeople: Criar nova pessoa,
-    /people/:id: Deleta pessoa pelo id,
-    /user: Exibe os usuários,
+    /person/:id: Deleta pessoa pelo id,
+    /person: Exibe os usuários,
     /apartments/:id: Exibe o apartamento pelo id,
-    /apartments: Exibe todos os apartamentos
+    /apartments: Exibe todos os apartamentos,
+    /pets: Exibe todos os pets,
+    /pets/:id: Exibe um único pet
   }
 
   Created by: Jonatas S.

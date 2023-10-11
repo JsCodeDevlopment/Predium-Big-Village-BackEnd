@@ -12,7 +12,7 @@ export async function apartaments(fastify: FastifyInstance) {
         data: {
           number,
           block,
-          status
+          status,
         },
       });
       return newApartament;

@@ -43,26 +43,25 @@ enum ResidentType {
 
 model Residents {
   id              String            @id @default(uuid()) @db.Uuid
-  name            String
   accessTag       String            @unique @map("access_tag")
   type            ResidentType
-  Apartments      Apartments        @relation(fields: [apartmentId], references: [id])
-  apartmentId     String            @map("apartment_id") @db.Uuid
   pets            Pets[]
   Visitors        Visitors?
   serviceRequests ServiceRequests[]
-  person          People            @relation(fields: [personId], references: [id])
+  apartmentId     String            @map("apartment_id") @db.Uuid
   personId        String            @unique @map("person_id") @db.Uuid
+  person          People            @relation(fields: [personId], references: [id])
+  Apartments      Apartments        @relation(fields: [apartmentId], references: [id])
 }
 
 model Pets {
   id         String    @id @default(uuid()) @db.Uuid
   name       String
   type       String
-  breed      String
-  age        Int
-  size       Float
-  weight     Float
+  breed      String?
+  age        Int?
+  size       Float?
+  weight     Float?
   notes      String?   @db.Text
   Residents  Residents @relation(fields: [residentId], references: [id])
   residentId String    @map("resident_id") @db.Uuid

@@ -16,15 +16,15 @@ export async function user(fastify: FastifyInstance) {
       resp.status(500).send("Deu merda!");
     }
   });
-  // Rota para exibir todos os usuários
- fastify.get('/user', async (request, reply) => {
-  try {
-    const user = await prisma.people.findMany();
-
-    return user;
-  } catch (error) {
-    fastify.log.error(error);
-    reply.status(500).send({ error: 'Erro ao obter os apartamentos' });
-  }
-});
+  // Rota para exibir usuário
+  fastify.get('/user', async (request, reply) => {
+    try {
+      const users = await prisma.users.findMany();
+  
+      return users;
+    } catch (error) {
+      fastify.log.error(error);
+      reply.status(500).send({ error: 'Erro ao obter os apartamentos' });
+    }
+  });
 }

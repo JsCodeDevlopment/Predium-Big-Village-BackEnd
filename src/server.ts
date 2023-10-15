@@ -7,7 +7,10 @@ import cors, { FastifyCorsOptions } from "@fastify/cors";
 import { pet } from "./routes/Pet";
 import { Residents } from "./routes/Residents";
 
-const whiteList = ["http://localhost:5173"];
+const whiteList = [
+  "http://localhost:5173",
+  "https://predium-big-village.vercel.app"
+];
 
 const corsOptions: FastifyCorsOptions = {
   origin: (origin, callback) => {

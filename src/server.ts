@@ -6,6 +6,7 @@ import { apartaments } from "./routes/Apartaments";
 import cors, { FastifyCorsOptions } from "@fastify/cors";
 import { pet } from "./routes/Pet";
 import { Residents } from "./routes/Residents";
+import { Warnings } from "./routes/Warnings";
 
 const whiteList = [
   "http://localhost:5173",
@@ -34,6 +35,7 @@ server.register(pet);
 server.register(user);
 server.register(login);
 server.register(Residents);
+server.register(Warnings);
 
 server
   .listen({
@@ -47,17 +49,21 @@ server.get("/", () => {
   return `Bem Vindo a Predium Big village API
 
   Rotas ativas {
-    /newapartament: Criar novo apartamento,
-    /login: Verifica o login para executar o login,
-    /newuser: Criar Novo Usuário,
-    /users: Exibe os usuários,
-    /newpeople: Criar nova pessoa,
-    /person/:id: Deleta pessoa pelo id,
-    /person: Exibe os usuários,
-    /apartments/:id: Exibe o apartamento pelo id,
-    /apartments: Exibe todos os apartamentos,
-    /pets: Exibe todos os pets,
-    /pets/:id: Exibe um único pet
+    POST/ /newapartament: Criar novo apartamento,
+    POST/ /login: Verifica o login para executar o login,
+    POST/ /newuser: Criar Novo Usuário,
+    GET/ /users: Exibe os usuários,
+    POST/ /newpeople: Criar nova pessoa,
+    DELETE/ /person/:id: Deleta pessoa pelo id,
+    GET/ /person: Exibe os usuários,
+    GET/ /apartments/:id: Exibe o apartamento pelo id,
+    GET/ /apartments: Exibe todos os apartamentos,
+    GET/ /pets: Exibe todos os pets,
+    GET/ /pets/:id: Exibe um único pet,
+    POST/ /newwarning: Cria um novo aviso,
+    GET/ /warnings: Exibe todos os avisos,
+    GET/ /warnings/:id: Exibe um único aviso,
+    DELETE/ /warnings/:id: Exclui um aviso,
   }
 
   Created by: Jonatas S.

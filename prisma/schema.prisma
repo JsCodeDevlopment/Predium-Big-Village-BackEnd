@@ -23,7 +23,7 @@ enum Status {
 model Apartments {
   id               String             @id @default(uuid()) @db.Uuid
   number           Int
-  block            String             
+  block            String
   status           Status[]
   owner            Owners?            @relation(fields: [ownerId], references: [id])
   ownerId          String?            @unique @map("owner_id") @db.Uuid
@@ -125,7 +125,7 @@ model Complaints {
 model Warnings {
   id          String     @id @default(uuid()) @db.Uuid
   details     String     @db.Text
-  date        DateTime
+  date        DateTime   @default(now())
   Apartments  Apartments @relation(fields: [apartmentId], references: [id])
   apartmentId String     @map("apartment_id") @db.Uuid
 }

@@ -61,6 +61,7 @@ server.get("/", () => {
     GET/ /pets: Exibe todos os pets,
     GET/ /pets/:id: Exibe um único pet,
     POST/ /newwarning: Cria um novo aviso,
+    POST/ /warning/:number: Cria um novo aviso baseado no número do AP,
     GET/ /warnings: Exibe todos os avisos,
     GET/ /warnings/:id: Exibe um único aviso,
     DELETE/ /warnings/:id: Exclui um aviso,

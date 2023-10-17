@@ -124,6 +124,7 @@ model Complaints {
 
 model Warnings {
   id          String     @id @default(uuid()) @db.Uuid
+  title       String
   details     String     @db.Text
   date        DateTime   @default(now())
   Apartments  Apartments @relation(fields: [apartmentId], references: [id])

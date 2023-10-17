@@ -6,12 +6,13 @@ export async function Warnings(fastify: FastifyInstance) {
   // Rota para criar um aviso.
   fastify.post("/newwarning", async (req, resp) => {
     try {
-      const { apartmentId, details } = req.body as Warnings;
+      const { apartmentId, details, title } = req.body as Warnings;
 
       const newWarning = await prisma.warnings.create({
         data: {
+          title,
           details,
-          apartmentId,
+          apartmentId
         },
       });
       return newWarning;
@@ -42,12 +43,13 @@ export async function Warnings(fastify: FastifyInstance) {
         return;
       }
 
-      const { details } = req.body as Warnings;
+      const { details, title } = req.body as Warnings;
 
       const newWarning = await prisma.warnings.create({
         data: {
+          title,
           details,
-          apartmentId,
+          apartmentId
         },
       });
       return newWarning;
@@ -79,7 +81,7 @@ export async function Warnings(fastify: FastifyInstance) {
       resp.status(500).send({ error: "Erro ao obter o aviso" });
     }
   });
-  // Rota para deletar um usuário.
+  // Rota para deletar um aviso.
   fastify.delete("/warnings/:id", async (req, resp) => {
     try {
       const { id } = req.params as { id: string };

@@ -140,9 +140,12 @@ model Vehicles {
   id          String      @id @default(uuid()) @db.Uuid
   type        VehicleType
   brand       String
+  model       String
   plate       String
-  Apartments  Apartments  @relation(fields: [apartmentId], references: [id])
+  peopleId    String      @map("people_id") @db.Uuid
   apartmentId String      @map("apartment_id") @db.Uuid
+  People      People      @relation(fields: [peopleId], references: [id])
+  Apartments  Apartments  @relation(fields: [apartmentId], references: [id])
 }
 
 model Services {
@@ -174,6 +177,7 @@ model People {
   Residents   Residents?
   Visitors    Visitors?
   User        Users?
+  Vehicles    Vehicles[]
 }
 
 model Users {

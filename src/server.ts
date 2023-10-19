@@ -7,6 +7,7 @@ import cors, { FastifyCorsOptions } from "@fastify/cors";
 import { pet } from "./routes/Pet";
 import { Residents } from "./routes/Residents";
 import { Warnings } from "./routes/Warnings";
+import { Vehicles } from "./routes/Vehicles";
 
 const whiteList = [
   "http://localhost:5173",
@@ -36,6 +37,7 @@ server.register(user);
 server.register(login);
 server.register(Residents);
 server.register(Warnings);
+server.register(Vehicles);
 
 server
   .listen({
@@ -65,6 +67,8 @@ server.get("/", () => {
     GET/ /warnings: Exibe todos os avisos,
     GET/ /warnings/:id: Exibe um único aviso,
     DELETE/ /warnings/:id: Exclui um aviso,
+    POST/ /vehicles/:id: Cria um novo veículo,
+    GET/ /vehicles/: Exibe todos os veículo,
   }
 
   Created by: Jonatas S.

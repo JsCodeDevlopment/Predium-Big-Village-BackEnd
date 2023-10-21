@@ -51,24 +51,37 @@ server.get("/", () => {
   return `Bem Vindo a Predium Big village API
 
   Rotas ativas {
-    POST/ /newapartament: Criar novo apartamento,
     POST/ /login: Verifica o login para executar o login,
-    POST/ /newuser: Criar Novo Usuário,
-    GET/ /users: Exibe os usuários,
-    POST/ /newpeople: Criar nova pessoa,
-    DELETE/ /person/:id: Deleta pessoa pelo id,
-    GET/ /person: Exibe os usuários,
-    GET/ /apartments/:id: Exibe o apartamento pelo id,
+
+    === APARTMENT ROUTES ===
+    POST/ /newapartament: Criar novo apartamento,
+    POST/ /newresident: Criar novo morador,
     GET/ /apartments: Exibe todos os apartamentos,
+    GET/ /apartments/:id: Exibe o apartamento pelo id,
+
+    === PEOPLE ROUTES ===
+    POST/ /newpeople: Criar nova pessoa,
+    POST/ /newuser: Criar Novo Usuário,
+    GET/ /person: Exibe as pessoas,
+    GET/ /users: Exibe os usuários,
+    DELETE/ /person/:id: Deleta pessoa pelo id,
+    
+    === PET ROUTES ===
+    POST/ /newpet: Cria um pet,
     GET/ /pets: Exibe todos os pets,
-    GET/ /pets/:id: Exibe um único pet,
+    DELETE/ /pets/:id: Deleta um único pet,
+
+    === WARNING ROUTES ===
     POST/ /newwarning: Cria um novo aviso,
     POST/ /warning/:number: Cria um novo aviso baseado no número do AP,
     GET/ /warnings: Exibe todos os avisos,
     GET/ /warnings/:id: Exibe um único aviso,
     DELETE/ /warnings/:id: Exclui um aviso,
+
+    === VEICLES ROUTES ===
     POST/ /vehicles/:id: Cria um novo veículo,
     GET/ /vehicles/: Exibe todos os veículo,
+    DELETE/ /vehicles/:id: Deleta um veículo,
   }
 
   Created by: Jonatas S.

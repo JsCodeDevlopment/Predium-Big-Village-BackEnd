@@ -37,8 +37,8 @@ export async function pet(fastify: FastifyInstance) {
       reply.status(500).send({ error: "Erro ao obter os apartamentos" });
     }
   });
-  // Rota para exibir um unico pet
-  fastify.get("/pets/:id", async (req, resp) => {
+  // Rota para deletar um unico pet
+  fastify.delete("/pets/:id", async (req, resp) => {
     try {
       const { id } = req.params as { id: string };
       const pet = await prisma.pets.findUnique({

@@ -64,40 +64,27 @@ export async function Vehicles(fastify: FastifyInstance) {
       fastify.log.error(error);
       reply.status(500).send({ error: "Erro ao obter os veículos" });
     }
+  })
+  // Rota para deletar um aviso.
+  fastify.delete("/vehicles/:id", async (req, resp) => {
+    try {
+      const { id } = req.params as { id: string };
+      const vehicles = await prisma.vehicles.findUnique({
+        where: {
+          id: id,
+        },
+      });
+      if (!vehicles) {
+        return resp.status(404).send("Veículo não encontrado");
+      }
+      await prisma.vehicles.delete({
+        where: {
+          id: id,
+        },
+      });
+    } catch (error) {
+      console.error(error);
+      resp.status(500).send("Ocorreu um erro ao deletar o veículo.");
+    }
   });
-//   //Rota para exibir um único aviso
-//   fastify.get("/warnings/:id", async (req, resp) => {
-//     try {
-//       const { id } = req.params as { id: string };
-//       const warning = await prisma.warnings.findFirst({
-//         where: { id },
-//       });
-//       return warning;
-//     } catch (error) {
-//       fastify.log.error(error);
-//       resp.status(500).send({ error: "Erro ao obter o aviso" });
-//     }
-//   });
-//   // Rota para deletar um aviso.
-//   fastify.delete("/warnings/:id", async (req, resp) => {
-//     try {
-//       const { id } = req.params as { id: string };
-//       const warnings = await prisma.warnings.findUnique({
-//         where: {
-//           id: id,
-//         },
-//       });
-//       if (!warnings) {
-//         return resp.status(404).send("Aviso não encontrado");
-//       }
-//       await prisma.warnings.delete({
-//         where: {
-//           id: id,
-//         },
-//       });
-//     } catch (error) {
-//       console.error(error);
-//       resp.status(500).send("Ocorreu um erro ao deletar o aviso.");
-//     }
-//   });
 }

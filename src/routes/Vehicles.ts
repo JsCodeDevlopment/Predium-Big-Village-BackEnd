@@ -38,6 +38,17 @@ export async function Vehicles(fastify: FastifyInstance) {
         return;
       }
 
+      const numberOfVehicles = await prisma.vehicles.count({
+        where: {
+          peopleId: person.id
+        }
+      });
+      
+      if (numberOfVehicles >= 2) {
+        resp.status(400).send("Essa pessoa já possui 2 veículos. Não é permitido adicionar mais.");
+        return;
+      }
+
       const newVehicle = await prisma.vehicles.create({
         data: {
             brand,

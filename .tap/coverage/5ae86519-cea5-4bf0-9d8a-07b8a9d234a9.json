@@ -1,0 +1,1494 @@
+{
+  "result": [
+    {
+      "scriptId": "977",
+      "url": "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/app.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 3794,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "__importDefault",
+          "ranges": [
+            {
+              "startOffset": 70,
+              "endOffset": 151,
+              "count": 2
+            },
+            {
+              "startOffset": 122,
+              "endOffset": 127,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "1261",
+      "url": "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/People.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 6646,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "People",
+          "ranges": [
+            {
+              "startOffset": 162,
+              "endOffset": 1868,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 261,
+              "endOffset": 762,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 836,
+              "endOffset": 1487,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 1558,
+              "endOffset": 1864,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        }
+      ]
+    },
+    {
+      "scriptId": "1262",
+      "url": "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/database/prismaClient.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 816,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "1266",
+      "url": "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/Apartaments.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 7123,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "apartaments",
+          "ranges": [
+            {
+              "startOffset": 167,
+              "endOffset": 2075,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 275,
+              "endOffset": 724,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 804,
+              "endOffset": 1126,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 1199,
+              "endOffset": 2071,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        }
+      ]
+    },
+    {
+      "scriptId": "1267",
+      "url": "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/Pet.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 6853,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "pet",
+          "ranges": [
+            {
+              "startOffset": 159,
+              "endOffset": 1937,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 248,
+              "endOffset": 845,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 911,
+              "endOffset": 1215,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 1288,
+              "endOffset": 1933,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        }
+      ]
+    },
+    {
+      "scriptId": "1268",
+      "url": "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/User.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 3833,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "user",
+          "ranges": [
+            {
+              "startOffset": 160,
+              "endOffset": 987,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 255,
+              "endOffset": 616,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 676,
+              "endOffset": 983,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        }
+      ]
+    },
+    {
+      "scriptId": "1269",
+      "url": "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/Login.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 3746,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "login",
+          "ranges": [
+            {
+              "startOffset": 161,
+              "endOffset": 986,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 255,
+              "endOffset": 982,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        }
+      ]
+    },
+    {
+      "scriptId": "1270",
+      "url": "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/Residents.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 6764,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "Residents",
+          "ranges": [
+            {
+              "startOffset": 165,
+              "endOffset": 1912,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 271,
+              "endOffset": 768,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 845,
+              "endOffset": 1164,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 1243,
+              "endOffset": 1908,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        }
+      ]
+    },
+    {
+      "scriptId": "1271",
+      "url": "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/Warnings.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 11683,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "Warnings",
+          "ranges": [
+            {
+              "startOffset": 164,
+              "endOffset": 3333,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 264,
+              "endOffset": 716,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 789,
+              "endOffset": 1754,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 1826,
+              "endOffset": 2136,
+              "count": 1
+            },
+            {
+              "startOffset": 1993,
+              "endOffset": 2130,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 2210,
+              "endOffset": 2596,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 2670,
+              "endOffset": 3329,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        }
+      ]
+    },
+    {
+      "scriptId": "1272",
+      "url": "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/Vehicles.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 10856,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "Vehicles",
+          "ranges": [
+            {
+              "startOffset": 164,
+              "endOffset": 3154,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 270,
+              "endOffset": 2031,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 2105,
+              "endOffset": 2413,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 2487,
+              "endOffset": 3150,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        }
+      ]
+    },
+    {
+      "scriptId": "1273",
+      "url": "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/Fines.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 11342,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "Fines",
+          "ranges": [
+            {
+              "startOffset": 161,
+              "endOffset": 3646,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 803,
+              "endOffset": 2041,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        }
+      ]
+    },
+    {
+      "scriptId": "1285",
+      "url": "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/middleware/Cors.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 2414,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "origin",
+          "ranges": [
+            {
+              "startOffset": 240,
+              "endOffset": 466,
+              "count": 1
+            },
+            {
+              "startOffset": 284,
+              "endOffset": 313,
+              "count": 0
+            },
+            {
+              "startOffset": 372,
+              "endOffset": 460,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ],
+  "timestamp": 1046871.969426,
+  "source-map-cache": {
+    "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/app.ts": {
+      "lineLengths": [
+        13,
+        72,
+        62,
+        2,
+        62,
+        24,
+        54,
+        44,
+        54,
+        38,
+        40,
+        42,
+        50,
+        48,
+        48,
+        42,
+        57,
+        44,
+        58,
+        60,
+        41,
+        51,
+        35,
+        37,
+        39,
+        47,
+        45,
+        45,
+        39,
+        2472
+      ],
+      "data": {
+        "version": 3,
+        "file": "C:/Users/Jonatas/Documents/Jonatas/Programação/Predium-BackEnd/src/app.ts",
+        "sources": [
+          "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%25C3%25A7%25C3%25A3o/Predium-BackEnd/src/app.ts"
+        ],
+        "names": [],
+        "mappings": ";;;;;;AAAA,sDAA8B;AAC9B,4CAAyC;AACzC,sDAAmD;AACnD,sCAAmC;AACnC,wCAAqC;AACrC,0CAAuC;AACvC,kDAA+C;AAC/C,gDAA6C;AAC7C,gDAA6C;AAC7C,0CAAuC;AACvC,yDAAiC;AACjC,4CAAgD;AAEnC,QAAA,MAAM,GAAG,IAAA,iBAAO,EAAC,EAAE,MAAM,EAAE,IAAI,EAAE,CAAC,CAAC;AAEhD,cAAM,CAAC,QAAQ,CAAC,cAAI,EAAE,kBAAW,CAAC,CAAA;AAClC,cAAM,CAAC,QAAQ,CAAC,eAAM,CAAC,CAAC;AACxB,cAAM,CAAC,QAAQ,CAAC,yBAAW,CAAC,CAAC;AAC7B,cAAM,CAAC,QAAQ,CAAC,SAAG,CAAC,CAAC;AACrB,cAAM,CAAC,QAAQ,CAAC,WAAI,CAAC,CAAC;AACtB,cAAM,CAAC,QAAQ,CAAC,aAAK,CAAC,CAAC;AACvB,cAAM,CAAC,QAAQ,CAAC,qBAAS,CAAC,CAAC;AAC3B,cAAM,CAAC,QAAQ,CAAC,mBAAQ,CAAC,CAAC;AAC1B,cAAM,CAAC,QAAQ,CAAC,mBAAQ,CAAC,CAAC;AAC1B,cAAM,CAAC,QAAQ,CAAC,aAAK,CAAC,CAAC",
+        "sourcesContent": [
+          "import fastify from \"fastify\";\r\nimport { People } from \"./routes/People\";\r\nimport { apartaments } from \"./routes/Apartaments\";\r\nimport { pet } from \"./routes/Pet\";\r\nimport { user } from \"./routes/User\";\r\nimport { login } from \"./routes/Login\";\r\nimport { Residents } from \"./routes/Residents\";\r\nimport { Warnings } from \"./routes/Warnings\";\r\nimport { Vehicles } from \"./routes/Vehicles\";\r\nimport { Fines } from \"./routes/Fines\";\r\nimport cors from \"@fastify/cors\";\r\nimport { corsOptions } from \"./middleware/Cors\";\r\n\r\nexport const server = fastify({ logger: true });\r\n\r\nserver.register(cors, corsOptions)\r\nserver.register(People);\r\nserver.register(apartaments);\r\nserver.register(pet);\r\nserver.register(user);\r\nserver.register(login);\r\nserver.register(Residents);\r\nserver.register(Warnings);\r\nserver.register(Vehicles);\r\nserver.register(Fines);"
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/People.ts": {
+      "lineLengths": [
+        13,
+        62,
+        24,
+        59,
+        32,
+        34,
+        53,
+        13,
+        67,
+        73,
+        23,
+        25,
+        32,
+        26,
+        24,
+        23,
+        18,
+        15,
+        29,
+        9,
+        23,
+        48,
+        9,
+        7,
+        36,
+        56,
+        13,
+        38,
+        74,
+        24,
+        26,
+        17,
+        15,
+        26,
+        71,
+        13,
+        55,
+        24,
+        26,
+        17,
+        15,
+        9,
+        23,
+        33,
+        75,
+        9,
+        7,
+        40,
+        54,
+        13,
+        71,
+        24,
+        9,
+        23,
+        37,
+        79,
+        9,
+        7,
+        1,
+        24,
+        4752
+      ],
+      "data": {
+        "version": 3,
+        "file": "C:/Users/Jonatas/Documents/Jonatas/Programação/Predium-BackEnd/src/routes/People.ts",
+        "sources": [
+          "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%25C3%25A7%25C3%25A3o/Predium-BackEnd/src/routes/People.ts"
+        ],
+        "names": [],
+        "mappings": ";;;AACA,2DAAkD;AAG3C,KAAK,UAAU,MAAM,CAAC,OAAwB;IACnD,8BAA8B;IAC5B,OAAO,CAAC,IAAI,CAAC,YAAY,EAAE,KAAK,EAAE,GAAG,EAAE,IAAI,EAAE,EAAE;QAC/C,IAAI;YACF,MAAM,EAAE,IAAI,EAAE,WAAW,EAAE,KAAK,EAAE,GAAG,EAAE,EAAE,EAAC,GAAG,GAAG,CAAC,IAAc,CAAC;YAEhE,MAAM,SAAS,GAAG,MAAM,qBAAM,CAAC,MAAM,CAAC,MAAM,CAAC;gBAC3C,IAAI,EAAE;oBACJ,IAAI;oBACJ,WAAW;oBACX,KAAK;oBACL,GAAG;oBACH,EAAE;iBACH;aACF,CAAC,CAAC;YACH,OAAO,SAAS,CAAC;SAClB;QAAC,OAAO,KAAK,EAAE;YACd,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,YAAY,CAAC,CAAC;SACrC;IACH,CAAC,CAAC,CAAC;IACH,gCAAgC;IAChC,OAAO,CAAC,MAAM,CAAC,aAAa,EAAC,KAAK,EAAE,GAAG,EAAE,IAAI,EAAE,EAAE;QAC/C,IAAG;YACC,MAAM,EAAE,EAAE,EAAE,GAAG,GAAG,CAAC,MAAsB,CAAA;YACzC,MAAM,MAAM,GAAG,MAAM,qBAAM,CAAC,MAAM,CAAC,UAAU,CAAC;gBAC1C,KAAK,EAAE;oBACH,EAAE,EAAE,EAAE;iBACT;aACJ,CAAC,CAAA;YACF,IAAI,CAAC,MAAM,EAAE;gBACT,OAAO,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,wBAAwB,CAAC,CAAA;aACzD;YACF,MAAM,qBAAM,CAAC,MAAM,CAAC,MAAM,CAAC;gBAC1B,KAAK,EAAE;oBACH,EAAE,EAAE,EAAE;iBACT;aACD,CAAC,CAAA;SACJ;QAAC,OAAO,KAAK,EAAE;YACZ,OAAO,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC;YACrB,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,uCAAuC,CAAC,CAAC;SAChE;IACL,CAAC,CAAC,CAAA;IACF,oCAAoC;IACrC,OAAO,CAAC,GAAG,CAAC,SAAS,EAAE,KAAK,EAAE,OAAO,EAAE,KAAK,EAAE,EAAE;QAC/C,IAAI;YACF,MAAM,IAAI,GAAG,MAAM,qBAAM,CAAC,MAAM,CAAC,QAAQ,EAAE,CAAC;YAE5C,OAAO,IAAI,CAAC;SACb;QAAC,OAAO,KAAK,EAAE;YACd,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC;YACzB,KAAK,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,EAAE,KAAK,EAAE,+BAA+B,EAAE,CAAC,CAAC;SACpE;IACH,CAAC,CAAC,CAAC;AACH,CAAC;AArDD,wBAqDC",
+        "sourcesContent": [
+          "import { People } from \"@prisma/client\";\r\nimport { prisma } from \"../database/prismaClient\";\r\nimport { FastifyInstance } from \"fastify\";\r\n\r\nexport async function People(fastify: FastifyInstance) {\r\n  // Rota para criar um usuário.\r\n    fastify.post(\"/newpeople\", async (req, resp) => {\r\n    try {\r\n      const { name, phoneNumber, email, cpf, rg} = req.body as People;\r\n\r\n      const newPerson = await prisma.people.create({\r\n        data: {\r\n          name,\r\n          phoneNumber,\r\n          email,\r\n          cpf,\r\n          rg,\r\n        },\r\n      });\r\n      return newPerson;\r\n    } catch (error) {\r\n      resp.status(500).send(\"Deu merda!\");\r\n    }\r\n  });\r\n  // Rota para deletar um usuário.\r\n  fastify.delete(\"/person/:id\",async (req, resp) => {\r\n    try{\r\n        const { id } = req.params as {id: string}\r\n        const person = await prisma.people.findUnique({\r\n            where: {\r\n                id: id\r\n            }\r\n        })\r\n        if (!person) {\r\n            return resp.status(404).send('Usuário não encontrado')\r\n        }\r\n       await prisma.people.delete({\r\n        where: {\r\n            id: id\r\n        }\r\n       })\r\n    } catch (error) {\r\n        console.error(error);\r\n        resp.status(500).send('Ocorreu um erro ao deletar o usuário.');\r\n      }\r\n  })\r\n  // Rota para exibir todos as pessoas\r\n fastify.get('/person', async (request, reply) => {\r\n  try {\r\n    const user = await prisma.people.findMany();\r\n\r\n    return user;\r\n  } catch (error) {\r\n    fastify.log.error(error);\r\n    reply.status(500).send({ error: 'Erro ao obter os apartamentos' });\r\n  }\r\n});\r\n}\r\n"
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/database/prismaClient.ts": {
+      "lineLengths": [
+        13,
+        62,
+        24,
+        43,
+        45,
+        624
+      ],
+      "data": {
+        "version": 3,
+        "file": "C:/Users/Jonatas/Documents/Jonatas/Programação/Predium-BackEnd/src/database/prismaClient.ts",
+        "sources": [
+          "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%25C3%25A7%25C3%25A3o/Predium-BackEnd/src/database/prismaClient.ts"
+        ],
+        "names": [],
+        "mappings": ";;;AAAA,2CAA6C;AAChC,QAAA,MAAM,GAAG,IAAI,qBAAY,EAAE,CAAA",
+        "sourcesContent": [
+          "import { PrismaClient } from '@prisma/client'\r\nexport const prisma = new PrismaClient()\r\n"
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/Apartaments.ts": {
+      "lineLengths": [
+        13,
+        62,
+        29,
+        59,
+        37,
+        34,
+        57,
+        13,
+        55,
+        81,
+        23,
+        27,
+        26,
+        27,
+        18,
+        15,
+        33,
+        9,
+        23,
+        48,
+        9,
+        7,
+        45,
+        58,
+        13,
+        81,
+        30,
+        9,
+        23,
+        37,
+        79,
+        9,
+        7,
+        34,
+        57,
+        13,
+        38,
+        80,
+        30,
+        26,
+        35,
+        32,
+        34,
+        39,
+        41,
+        42,
+        25,
+        22,
+        35,
+        32,
+        42,
+        36,
+        17,
+        15,
+        29,
+        9,
+        23,
+        37,
+        78,
+        9,
+        7,
+        1,
+        34,
+        5012
+      ],
+      "data": {
+        "version": 3,
+        "file": "C:/Users/Jonatas/Documents/Jonatas/Programação/Predium-BackEnd/src/routes/Apartaments.ts",
+        "sources": [
+          "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%25C3%25A7%25C3%25A3o/Predium-BackEnd/src/routes/Apartaments.ts"
+        ],
+        "names": [],
+        "mappings": ";;;AACA,2DAAkD;AAG3C,KAAK,UAAU,WAAW,CAAC,OAAwB;IACxD,8BAA8B;IAC5B,OAAO,CAAC,IAAI,CAAC,gBAAgB,EAAE,KAAK,EAAE,GAAG,EAAE,IAAI,EAAE,EAAE;QACnD,IAAI;YACF,MAAM,EAAE,MAAM,EAAE,KAAK,EAAE,MAAM,EAAE,GAAG,GAAG,CAAC,IAAkB,CAAC;YAEzD,MAAM,aAAa,GAAG,MAAM,qBAAM,CAAC,UAAU,CAAC,MAAM,CAAC;gBACnD,IAAI,EAAE;oBACJ,MAAM;oBACN,KAAK;oBACL,MAAM;iBACP;aACF,CAAC,CAAC;YACH,OAAO,aAAa,CAAC;SACtB;QAAC,OAAO,KAAK,EAAE;YACd,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,YAAY,CAAC,CAAC;SACrC;IACH,CAAC,CAAC,CAAC;IACJ,yCAAyC;IACzC,OAAO,CAAC,GAAG,CAAC,aAAa,EAAE,KAAK,EAAE,OAAO,EAAE,KAAK,EAAE,EAAE;QACjD,IAAI;YACF,MAAM,UAAU,GAAG,MAAM,qBAAM,CAAC,UAAU,CAAC,QAAQ,EAAE,CAAC;YAEtD,OAAO,UAAU,CAAC;SACnB;QAAC,OAAO,KAAK,EAAE;YACd,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC;YACzB,KAAK,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,EAAE,KAAK,EAAE,+BAA+B,EAAE,CAAC,CAAC;SACpE;IACH,CAAC,CAAC,CAAC;IAEH,8BAA8B;IAC9B,OAAO,CAAC,GAAG,CAAC,iBAAiB,EAAC,KAAK,EAAE,GAAG,EAAE,IAAI,EAAE,EAAE;QAChD,IAAI;YACF,MAAM,EAAC,EAAE,EAAC,GAAG,GAAG,CAAC,MAAsB,CAAA;YACvC,MAAM,SAAS,GAAG,MAAM,qBAAM,CAAC,UAAU,CAAC,SAAS,CAAC;gBAClD,KAAK,EAAE,EAAE,EAAE,EAAE;gBACb,OAAO,EAAE;oBACP,QAAQ,EAAE,IAAI;oBACd,SAAS,EAAE;wBACT,OAAO,EAAE;4BACP,IAAI,EAAE,IAAI;4BACV,MAAM,EAAE,IAAI;4BACZ,QAAQ,EAAE,IAAI;yBACf;qBACF;oBACD,QAAQ,EAAE,IAAI;oBACd,KAAK,EAAE,IAAI;oBACX,eAAe,EAAE,IAAI;oBACrB,UAAU,EAAE,IAAI;iBACjB;aACF,CAAC,CAAA;YACD,OAAO,SAAS,CAAA;SAClB;QAAC,OAAM,KAAK,EAAE;YACb,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC;YACzB,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,EAAE,KAAK,EAAE,+BAA+B,EAAE,CAAC,CAAC;SACnE;IACH,CAAC,CAAC,CAAA;AACJ,CAAC;AAzDD,kCAyDC",
+        "sourcesContent": [
+          "import { Apartments } from \"@prisma/client\";\r\nimport { prisma } from \"../database/prismaClient\";\r\nimport { FastifyInstance } from \"fastify\";\r\n\r\nexport async function apartaments(fastify: FastifyInstance) {\r\n  // Rota para criar um usuário.\r\n    fastify.post(\"/newapartament\", async (req, resp) => {\r\n    try {\r\n      const { number, block, status } = req.body as Apartments;\r\n\r\n      const newApartament = await prisma.apartments.create({\r\n        data: {\r\n          number,\r\n          block,\r\n          status,\r\n        },\r\n      });\r\n      return newApartament;\r\n    } catch (error) {\r\n      resp.status(500).send(\"Deu merda!\");\r\n    }\r\n  });\r\n // Rota para exibir todos os apartamentos\r\n fastify.get('/apartments', async (request, reply) => {\r\n    try {\r\n      const apartments = await prisma.apartments.findMany();\r\n  \r\n      return apartments;\r\n    } catch (error) {\r\n      fastify.log.error(error);\r\n      reply.status(500).send({ error: 'Erro ao obter os apartamentos' });\r\n    }\r\n  });\r\n\r\n  //Rota para exibir um único ap\r\n  fastify.get('/apartments/:id',async (req, resp) => {\r\n    try {\r\n      const {id} = req.params as {id: string}\r\n      const apartment = await prisma.apartments.findFirst({\r\n        where: { id },\r\n        include: {\r\n          warnings: true,\r\n          residents: {\r\n            include: {\r\n              pets: true,\r\n              person: true,\r\n              Visitors: true\r\n            }\r\n          },\r\n          vehicles: true,\r\n          owner: true,\r\n          serviceRequests: true,\r\n          complaints: true\r\n        }\r\n      })\r\n       return apartment\r\n    } catch(error) {\r\n      fastify.log.error(error);\r\n      resp.status(500).send({ error: 'Erro ao obter os apartamentos' });\r\n    }\r\n  })\r\n}\r\n"
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/Pet.ts": {
+      "lineLengths": [
+        13,
+        62,
+        21,
+        59,
+        29,
+        30,
+        50,
+        13,
+        89,
+        68,
+        23,
+        25,
+        25,
+        31,
+        24,
+        26,
+        26,
+        25,
+        27,
+        18,
+        15,
+        26,
+        9,
+        23,
+        48,
+        9,
+        7,
+        37,
+        52,
+        13,
+        69,
+        24,
+        9,
+        23,
+        37,
+        79,
+        9,
+        7,
+        37,
+        54,
+        13,
+        38,
+        69,
+        24,
+        27,
+        18,
+        15,
+        23,
+        71,
+        13,
+        53,
+        24,
+        27,
+        18,
+        15,
+        9,
+        23,
+        33,
+        75,
+        9,
+        7,
+        1,
+        18,
+        4896
+      ],
+      "data": {
+        "version": 3,
+        "file": "C:/Users/Jonatas/Documents/Jonatas/Programação/Predium-BackEnd/src/routes/Pet.ts",
+        "sources": [
+          "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%25C3%25A7%25C3%25A3o/Predium-BackEnd/src/routes/Pet.ts"
+        ],
+        "names": [],
+        "mappings": ";;;AACA,2DAAkD;AAG3C,KAAK,UAAU,GAAG,CAAC,OAAwB;IAChD,0BAA0B;IAC1B,OAAO,CAAC,IAAI,CAAC,SAAS,EAAE,KAAK,EAAE,GAAG,EAAE,IAAI,EAAE,EAAE;QAC1C,IAAI;YACF,MAAM,EAAE,IAAI,EAAE,IAAI,EAAE,UAAU,EAAE,GAAG,EAAE,KAAK,EAAE,KAAK,EAAE,IAAI,EAAE,MAAM,EAAE,GAC/D,GAAG,CAAC,IAAY,CAAC;YAEnB,MAAM,MAAM,GAAG,MAAM,qBAAM,CAAC,IAAI,CAAC,MAAM,CAAC;gBACtC,IAAI,EAAE;oBACJ,IAAI;oBACJ,IAAI;oBACJ,UAAU;oBACV,GAAG;oBACH,KAAK;oBACL,KAAK;oBACL,IAAI;oBACJ,MAAM;iBACP;aACF,CAAC,CAAC;YACH,OAAO,MAAM,CAAC;SACf;QAAC,OAAO,KAAK,EAAE;YACd,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,YAAY,CAAC,CAAC;SACrC;IACH,CAAC,CAAC,CAAC;IACH,iCAAiC;IACjC,OAAO,CAAC,GAAG,CAAC,OAAO,EAAE,KAAK,EAAE,OAAO,EAAE,KAAK,EAAE,EAAE;QAC5C,IAAI;YACF,MAAM,IAAI,GAAG,MAAM,qBAAM,CAAC,IAAI,CAAC,QAAQ,EAAE,CAAC;YAE1C,OAAO,IAAI,CAAC;SACb;QAAC,OAAO,KAAK,EAAE;YACd,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC;YACzB,KAAK,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,EAAE,KAAK,EAAE,+BAA+B,EAAE,CAAC,CAAC;SACpE;IACH,CAAC,CAAC,CAAC;IACH,iCAAiC;IACjC,OAAO,CAAC,MAAM,CAAC,WAAW,EAAE,KAAK,EAAE,GAAG,EAAE,IAAI,EAAE,EAAE;QAC9C,IAAI;YACF,MAAM,EAAE,EAAE,EAAE,GAAG,GAAG,CAAC,MAAwB,CAAC;YAC5C,MAAM,GAAG,GAAG,MAAM,qBAAM,CAAC,IAAI,CAAC,UAAU,CAAC;gBACvC,KAAK,EAAE;oBACL,EAAE,EAAE,EAAE;iBACP;aACF,CAAC,CAAC;YACH,IAAI,CAAC,GAAG,EAAE;gBACR,OAAO,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,wBAAwB,CAAC,CAAC;aACxD;YACD,MAAM,qBAAM,CAAC,IAAI,CAAC,MAAM,CAAC;gBACvB,KAAK,EAAE;oBACL,EAAE,EAAE,EAAE;iBACP;aACF,CAAC,CAAC;SACJ;QAAC,OAAO,KAAK,EAAE;YACd,OAAO,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC;YACrB,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,uCAAuC,CAAC,CAAC;SAChE;IACH,CAAC,CAAC,CAAC;AACL,CAAC;AAzDD,kBAyDC",
+        "sourcesContent": [
+          "import { FastifyInstance } from \"fastify\";\r\nimport { prisma } from \"../database/prismaClient\";\r\nimport { Pets } from \"@prisma/client\";\r\n\r\nexport async function pet(fastify: FastifyInstance) {\r\n  // Rota para criar um pet.\r\n  fastify.post(\"/newpet\", async (req, resp) => {\r\n    try {\r\n      const { name, type, residentId, age, breed, notes, size, weight } =\r\n        req.body as Pets;\r\n\r\n      const newPet = await prisma.pets.create({\r\n        data: {\r\n          name,\r\n          type,\r\n          residentId,\r\n          age,\r\n          breed,\r\n          notes,\r\n          size,\r\n          weight,\r\n        },\r\n      });\r\n      return newPet;\r\n    } catch (error) {\r\n      resp.status(500).send(\"Deu merda!\");\r\n    }\r\n  });\r\n  // Rota para exibir todos os pets\r\n  fastify.get(\"/pets\", async (request, reply) => {\r\n    try {\r\n      const pets = await prisma.pets.findMany();\r\n\r\n      return pets;\r\n    } catch (error) {\r\n      fastify.log.error(error);\r\n      reply.status(500).send({ error: \"Erro ao obter os apartamentos\" });\r\n    }\r\n  });\r\n  // Rota para deletar um unico pet\r\n  fastify.delete(\"/pets/:id\", async (req, resp) => {\r\n    try {\r\n      const { id } = req.params as { id: string };\r\n      const pet = await prisma.pets.findUnique({\r\n        where: {\r\n          id: id,\r\n        },\r\n      });\r\n      if (!pet) {\r\n        return resp.status(404).send(\"Usuário não encontrado\");\r\n      }\r\n      await prisma.pets.delete({\r\n        where: {\r\n          id: id,\r\n        },\r\n      });\r\n    } catch (error) {\r\n      console.error(error);\r\n      resp.status(500).send(\"Ocorreu um erro ao deletar o usuário.\");\r\n    }\r\n  });\r\n}\r\n"
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/User.ts": {
+      "lineLengths": [
+        13,
+        62,
+        22,
+        59,
+        30,
+        34,
+        51,
+        13,
+        58,
+        70,
+        51,
+        15,
+        27,
+        9,
+        23,
+        48,
+        9,
+        7,
+        31,
+        52,
+        13,
+        71,
+        25,
+        9,
+        23,
+        37,
+        79,
+        9,
+        7,
+        1,
+        20,
+        2824
+      ],
+      "data": {
+        "version": 3,
+        "file": "C:/Users/Jonatas/Documents/Jonatas/Programação/Predium-BackEnd/src/routes/User.ts",
+        "sources": [
+          "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%25C3%25A7%25C3%25A3o/Predium-BackEnd/src/routes/User.ts"
+        ],
+        "names": [],
+        "mappings": ";;;AACA,2DAAkD;AAG3C,KAAK,UAAU,IAAI,CAAC,OAAwB;IACjD,8BAA8B;IAC9B,OAAO,CAAC,IAAI,CAAC,UAAU,EAAE,KAAK,EAAE,GAAG,EAAE,IAAI,EAAE,EAAE;QAC3C,IAAI;YACF,MAAM,EAAE,QAAQ,EAAE,QAAQ,EAAE,IAAI,EAAE,GAAG,GAAG,CAAC,IAAa,CAAC;YAEvD,MAAM,OAAO,GAAG,MAAM,qBAAM,CAAC,KAAK,CAAC,MAAM,CAAC;gBACxC,IAAI,EAAE,EAAE,QAAQ,EAAE,QAAQ,EAAE,IAAI,EAAE;aACnC,CAAC,CAAC;YACH,OAAO,OAAO,CAAC;SAChB;QAAC,OAAO,KAAK,EAAE;YACd,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,YAAY,CAAC,CAAC;SACrC;IACH,CAAC,CAAC,CAAC;IACH,2BAA2B;IAC3B,OAAO,CAAC,GAAG,CAAC,OAAO,EAAE,KAAK,EAAE,OAAO,EAAE,KAAK,EAAE,EAAE;QAC5C,IAAI;YACF,MAAM,KAAK,GAAG,MAAM,qBAAM,CAAC,KAAK,CAAC,QAAQ,EAAE,CAAC;YAE5C,OAAO,KAAK,CAAC;SACd;QAAC,OAAO,KAAK,EAAE;YACd,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC;YACzB,KAAK,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,EAAE,KAAK,EAAE,+BAA+B,EAAE,CAAC,CAAC;SACpE;IACH,CAAC,CAAC,CAAC;AACL,CAAC;AAzBD,oBAyBC",
+        "sourcesContent": [
+          "import { Users } from \"@prisma/client\";\r\nimport { prisma } from \"../database/prismaClient\";\r\nimport { FastifyInstance } from \"fastify\";\r\n\r\nexport async function user(fastify: FastifyInstance) {\r\n  // Rota para criar um usuário.\r\n  fastify.post(\"/newuser\", async (req, resp) => {\r\n    try {\r\n      const { password, personId, type } = req.body as Users;\r\n\r\n      const newUser = await prisma.users.create({\r\n        data: { password, personId, type },\r\n      });\r\n      return newUser;\r\n    } catch (error) {\r\n      resp.status(500).send(\"Deu merda!\");\r\n    }\r\n  });\r\n  // Rota para exibir usuário\r\n  fastify.get('/user', async (request, reply) => {\r\n    try {\r\n      const users = await prisma.users.findMany();\r\n  \r\n      return users;\r\n    } catch (error) {\r\n      fastify.log.error(error);\r\n      reply.status(500).send({ error: 'Erro ao obter os apartamentos' });\r\n    }\r\n  });\r\n}\r\n"
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/Login.ts": {
+      "lineLengths": [
+        13,
+        62,
+        23,
+        59,
+        31,
+        34,
+        49,
+        13,
+        49,
+        73,
+        24,
+        25,
+        18,
+        26,
+        30,
+        17,
+        15,
+        26,
+        65,
+        13,
+        54,
+        65,
+        13,
+        20,
+        27,
+        14,
+        9,
+        23,
+        48,
+        9,
+        7,
+        1,
+        22,
+        2736
+      ],
+      "data": {
+        "version": 3,
+        "file": "C:/Users/Jonatas/Documents/Jonatas/Programação/Predium-BackEnd/src/routes/Login.ts",
+        "sources": [
+          "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%25C3%25A7%25C3%25A3o/Predium-BackEnd/src/routes/Login.ts"
+        ],
+        "names": [],
+        "mappings": ";;;AACA,2DAAkD;AAM3C,KAAK,UAAU,KAAK,CAAC,OAAwB;IAClD,8BAA8B;IAC9B,OAAO,CAAC,IAAI,CAAC,QAAQ,EAAE,KAAK,EAAE,GAAG,EAAE,IAAI,EAAE,EAAE;QACzC,IAAI;YACF,MAAM,EAAE,KAAK,EAAE,QAAQ,EAAE,GAAG,GAAG,CAAC,IAAa,CAAC;YAE9C,MAAM,MAAM,GAAG,MAAM,qBAAM,CAAC,MAAM,CAAC,SAAS,CAAC;gBAC3C,KAAK,EAAE;oBACH,KAAK;iBACR;gBACD,OAAO,EAAE;oBACL,IAAI,EAAE,IAAI;iBACb;aACF,CAAC,CAAC;YACH,IAAI,CAAC,MAAM,EAAE;gBACX,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,yBAAyB,CAAC,CAAA;aACjD;YACD,IAAI,MAAM,EAAE,IAAI,EAAE,QAAQ,KAAK,QAAQ,EAAE;gBACvC,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,yBAAyB,CAAC,CAAA;aACjD;YACD,OAAO;gBACL,KAAK,EAAE,IAAI;aACZ,CAAC;SACH;QAAC,OAAO,KAAK,EAAE;YACd,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,YAAY,CAAC,CAAC;SACrC;IACH,CAAC,CAAC,CAAC;AACL,CAAC;AA3BD,sBA2BC",
+        "sourcesContent": [
+          "import { Users } from \"@prisma/client\";\r\nimport { prisma } from \"../database/prismaClient\";\r\nimport { FastifyInstance } from \"fastify\";\r\ninterface Login {\r\n    email: string,\r\n    password: string\r\n}\r\nexport async function login(fastify: FastifyInstance) {\r\n  // Rota para criar um usuário.\r\n  fastify.post(\"/login\", async (req, resp) => {\r\n    try {\r\n      const { email ,password } = req.body as Login;\r\n\r\n      const person = await prisma.people.findFirst({\r\n        where: {\r\n            email\r\n        },\r\n        include: {\r\n            User: true\r\n        }\r\n      });\r\n      if (!person) {\r\n        resp.status(404).send(\"Email ou senha inválido\")\r\n      }\r\n      if (person?.User?.password !== password) {\r\n        resp.status(404).send(\"Email ou senha inválido\")\r\n      }\r\n      return {\r\n        login: true\r\n      };\r\n    } catch (error) {\r\n      resp.status(500).send(\"Deu merda!\");\r\n    }\r\n  });\r\n}"
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/Residents.ts": {
+      "lineLengths": [
+        13,
+        62,
+        27,
+        59,
+        35,
+        36,
+        55,
+        13,
+        72,
+        78,
+        23,
+        30,
+        32,
+        29,
+        24,
+        18,
+        15,
+        31,
+        9,
+        23,
+        48,
+        9,
+        7,
+        43,
+        57,
+        13,
+        79,
+        29,
+        9,
+        23,
+        37,
+        79,
+        9,
+        7,
+        42,
+        55,
+        13,
+        38,
+        79,
+        24,
+        27,
+        18,
+        15,
+        28,
+        71,
+        13,
+        58,
+        24,
+        27,
+        18,
+        15,
+        9,
+        23,
+        33,
+        75,
+        9,
+        7,
+        1,
+        30,
+        4820
+      ],
+      "data": {
+        "version": 3,
+        "file": "C:/Users/Jonatas/Documents/Jonatas/Programação/Predium-BackEnd/src/routes/Residents.ts",
+        "sources": [
+          "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%25C3%25A7%25C3%25A3o/Predium-BackEnd/src/routes/Residents.ts"
+        ],
+        "names": [],
+        "mappings": ";;;AACA,2DAAkD;AAG3C,KAAK,UAAU,SAAS,CAAC,OAAwB;IACtD,gCAAgC;IAChC,OAAO,CAAC,IAAI,CAAC,cAAc,EAAE,KAAK,EAAE,GAAG,EAAE,IAAI,EAAE,EAAE;QAC/C,IAAI;YACF,MAAM,EAAE,SAAS,EAAE,WAAW,EAAE,QAAQ,EAAE,IAAI,EAAE,GAC9C,GAAG,CAAC,IAAiB,CAAC;YAExB,MAAM,WAAW,GAAG,MAAM,qBAAM,CAAC,SAAS,CAAC,MAAM,CAAC;gBAChD,IAAI,EAAE;oBACJ,SAAS;oBACT,WAAW;oBACX,QAAQ;oBACR,IAAI;iBACL;aACF,CAAC,CAAC;YACH,OAAO,WAAW,CAAC;SACpB;QAAC,OAAO,KAAK,EAAE;YACd,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,YAAY,CAAC,CAAC;SACrC;IACH,CAAC,CAAC,CAAC;IACH,uCAAuC;IACvC,OAAO,CAAC,GAAG,CAAC,YAAY,EAAE,KAAK,EAAE,OAAO,EAAE,KAAK,EAAE,EAAE;QACjD,IAAI;YACF,MAAM,SAAS,GAAG,MAAM,qBAAM,CAAC,SAAS,CAAC,QAAQ,EAAE,CAAC;YAEpD,OAAO,SAAS,CAAC;SAClB;QAAC,OAAO,KAAK,EAAE;YACd,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC;YACzB,KAAK,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,EAAE,KAAK,EAAE,+BAA+B,EAAE,CAAC,CAAC;SACpE;IACH,CAAC,CAAC,CAAC;IACH,sCAAsC;IACtC,OAAO,CAAC,GAAG,CAAC,eAAe,EAAE,KAAK,EAAE,GAAG,EAAE,IAAI,EAAE,EAAE;QAC/C,IAAI;YACF,MAAM,EAAE,EAAE,EAAE,GAAG,GAAG,CAAC,MAAwB,CAAC;YAC5C,MAAM,QAAQ,GAAG,MAAM,qBAAM,CAAC,SAAS,CAAC,UAAU,CAAC;gBACjD,KAAK,EAAE;oBACL,EAAE,EAAE,EAAE;iBACP;aACF,CAAC,CAAC;YACH,IAAI,CAAC,QAAQ,EAAE;gBACb,OAAO,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,wBAAwB,CAAC,CAAC;aACxD;YACD,MAAM,qBAAM,CAAC,SAAS,CAAC,MAAM,CAAC;gBAC5B,KAAK,EAAE;oBACL,EAAE,EAAE,EAAE;iBACP;aACF,CAAC,CAAC;SACJ;QAAC,OAAO,KAAK,EAAE;YACd,OAAO,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC;YACrB,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,uCAAuC,CAAC,CAAC;SAChE;IACH,CAAC,CAAC,CAAC;AACL,CAAC;AArDD,8BAqDC",
+        "sourcesContent": [
+          "import { FastifyInstance } from \"fastify\";\r\nimport { prisma } from \"../database/prismaClient\";\r\nimport { Pets, Residents } from \"@prisma/client\";\r\n\r\nexport async function Residents(fastify: FastifyInstance) {\r\n  // Rota para criar um residente.\r\n  fastify.post(\"/newresident\", async (req, resp) => {\r\n    try {\r\n      const { accessTag, apartmentId, personId, type } =\r\n        req.body as Residents;\r\n\r\n      const newResident = await prisma.residents.create({\r\n        data: {\r\n          accessTag,\r\n          apartmentId,\r\n          personId,\r\n          type\r\n        },\r\n      });\r\n      return newResident;\r\n    } catch (error) {\r\n      resp.status(500).send(\"Deu merda!\");\r\n    }\r\n  });\r\n  // Rota para exibir todos os residentes\r\n  fastify.get(\"/residents\", async (request, reply) => {\r\n    try {\r\n      const residents = await prisma.residents.findMany();\r\n\r\n      return residents;\r\n    } catch (error) {\r\n      fastify.log.error(error);\r\n      reply.status(500).send({ error: \"Erro ao obter os apartamentos\" });\r\n    }\r\n  });\r\n  // Rota para exibir um unico residente\r\n  fastify.get(\"/resident/:id\", async (req, resp) => {\r\n    try {\r\n      const { id } = req.params as { id: string };\r\n      const resident = await prisma.residents.findUnique({\r\n        where: {\r\n          id: id,\r\n        },\r\n      });\r\n      if (!resident) {\r\n        return resp.status(404).send(\"Usuário não encontrado\");\r\n      }\r\n      await prisma.residents.delete({\r\n        where: {\r\n          id: id,\r\n        },\r\n      });\r\n    } catch (error) {\r\n      console.error(error);\r\n      resp.status(500).send(\"Ocorreu um erro ao deletar o usuário.\");\r\n    }\r\n  });\r\n}\r\n"
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/Warnings.ts": {
+      "lineLengths": [
+        13,
+        62,
+        26,
+        59,
+        34,
+        32,
+        54,
+        13,
+        61,
+        76,
+        23,
+        26,
+        28,
+        31,
+        18,
+        15,
+        30,
+        9,
+        23,
+        48,
+        9,
+        7,
+        32,
+        59,
+        13,
+        42,
+        33,
+        81,
+        23,
+        13,
+        83,
+        24,
+        36,
+        18,
+        20,
+        31,
+        72,
+        23,
+        13,
+        48,
+        76,
+        23,
+        26,
+        28,
+        31,
+        18,
+        15,
+        30,
+        9,
+        23,
+        48,
+        9,
+        7,
+        39,
+        56,
+        13,
+        77,
+        28,
+        9,
+        23,
+        37,
+        73,
+        9,
+        7,
+        37,
+        55,
+        13,
+        38,
+        76,
+        30,
+        15,
+        27,
+        9,
+        23,
+        37,
+        70,
+        9,
+        7,
+        34,
+        58,
+        13,
+        38,
+        78,
+        24,
+        27,
+        18,
+        15,
+        28,
+        69,
+        13,
+        57,
+        24,
+        27,
+        18,
+        15,
+        9,
+        23,
+        33,
+        73,
+        9,
+        7,
+        1,
+        28,
+        8320
+      ],
+      "data": {
+        "version": 3,
+        "file": "C:/Users/Jonatas/Documents/Jonatas/Programação/Predium-BackEnd/src/routes/Warnings.ts",
+        "sources": [
+          "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%25C3%25A7%25C3%25A3o/Predium-BackEnd/src/routes/Warnings.ts"
+        ],
+        "names": [],
+        "mappings": "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",
+        "sourcesContent": [
+          "import { FastifyInstance } from \"fastify\";\r\nimport { prisma } from \"../database/prismaClient\";\r\nimport { Warnings } from \"@prisma/client\";\r\n\r\nexport async function Warnings(fastify: FastifyInstance) {\r\n  // Rota para criar um aviso.\r\n  fastify.post(\"/newwarning\", async (req, resp) => {\r\n    try {\r\n      const { apartmentId, details, title } = req.body as Warnings;\r\n\r\n      const newWarning = await prisma.warnings.create({\r\n        data: {\r\n          title,\r\n          details,\r\n          apartmentId\r\n        },\r\n      });\r\n      return newWarning;\r\n    } catch (error) {\r\n      resp.status(500).send(\"Deu merda!\");\r\n    }\r\n  });\r\n  // Rota para criar um aviso.\r\n  fastify.post(\"/warning/:number\", async (req, resp) => {\r\n    try {\r\n      const { number } = req.params as { number: string };\r\n\r\n      if (isNaN(+number)) {\r\n        resp.status(400).send(\"Insira um número de apartamento válido!\");\r\n        return;\r\n      }\r\n\r\n      const apartmentId = (\r\n        await prisma.apartments.findFirst({\r\n          where: {\r\n            number: +number,\r\n          },\r\n        })\r\n      )?.id;\r\n\r\n      if (!apartmentId) {\r\n        resp.status(404).send(\"Nenhum apartamento encontrado!\");\r\n        return;\r\n      }\r\n\r\n      const { details, title } = req.body as Warnings;\r\n\r\n      const newWarning = await prisma.warnings.create({\r\n        data: {\r\n          title,\r\n          details,\r\n          apartmentId\r\n        },\r\n      });\r\n      return newWarning;\r\n    } catch (error) {\r\n      resp.status(500).send(\"Deu merda!\");\r\n    }\r\n  });\r\n  // Rota para exibir todos os avisos\r\n  fastify.get(\"/warnings\", async (request, reply) => {\r\n    try {\r\n      const warnings = await prisma.warnings.findMany();\r\n\r\n      return warnings;\r\n    } catch (error) {\r\n      fastify.log.error(error);\r\n      reply.status(500).send({ error: \"Erro ao obter os avisos\" });\r\n    }\r\n  });\r\n  //Rota para exibir um único aviso\r\n  fastify.get(\"/warnings/:id\", async (req, resp) => {\r\n    try {\r\n      const { id } = req.params as { id: string };\r\n      const warning = await prisma.warnings.findFirst({\r\n        where: { id },\r\n      });\r\n      return warning;\r\n    } catch (error) {\r\n      fastify.log.error(error);\r\n      resp.status(500).send({ error: \"Erro ao obter o aviso\" });\r\n    }\r\n  });\r\n  // Rota para deletar um aviso.\r\n  fastify.delete(\"/warnings/:id\", async (req, resp) => {\r\n    try {\r\n      const { id } = req.params as { id: string };\r\n      const warnings = await prisma.warnings.findUnique({\r\n        where: {\r\n          id: id,\r\n        },\r\n      });\r\n      if (!warnings) {\r\n        return resp.status(404).send(\"Aviso não encontrado\");\r\n      }\r\n      await prisma.warnings.delete({\r\n        where: {\r\n          id: id,\r\n        },\r\n      });\r\n    } catch (error) {\r\n      console.error(error);\r\n      resp.status(500).send(\"Ocorreu um erro ao deletar o aviso.\");\r\n    }\r\n  });\r\n}\r\n"
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/Vehicles.ts": {
+      "lineLengths": [
+        13,
+        62,
+        26,
+        59,
+        34,
+        32,
+        60,
+        13,
+        42,
+        33,
+        81,
+        23,
+        13,
+        83,
+        24,
+        36,
+        18,
+        20,
+        31,
+        72,
+        23,
+        13,
+        64,
+        74,
+        24,
+        23,
+        17,
+        15,
+        26,
+        64,
+        23,
+        13,
+        81,
+        24,
+        39,
+        17,
+        15,
+        40,
+        107,
+        23,
+        13,
+        76,
+        23,
+        26,
+        26,
+        26,
+        25,
+        32,
+        39,
+        18,
+        15,
+        30,
+        9,
+        23,
+        48,
+        31,
+        9,
+        7,
+        41,
+        52,
+        13,
+        77,
+        28,
+        9,
+        23,
+        37,
+        75,
+        9,
+        7,
+        34,
+        58,
+        13,
+        38,
+        78,
+        24,
+        27,
+        18,
+        15,
+        28,
+        71,
+        13,
+        57,
+        24,
+        27,
+        18,
+        15,
+        9,
+        23,
+        33,
+        75,
+        9,
+        7,
+        1,
+        28,
+        7672
+      ],
+      "data": {
+        "version": 3,
+        "file": "C:/Users/Jonatas/Documents/Jonatas/Programação/Predium-BackEnd/src/routes/Vehicles.ts",
+        "sources": [
+          "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%25C3%25A7%25C3%25A3o/Predium-BackEnd/src/routes/Vehicles.ts"
+        ],
+        "names": [],
+        "mappings": "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",
+        "sourcesContent": [
+          "import { FastifyInstance } from \"fastify\";\r\nimport { prisma } from \"../database/prismaClient\";\r\nimport { Vehicles } from \"@prisma/client\";\r\n\r\nexport async function Vehicles(fastify: FastifyInstance) {\r\n  // Rota para criar um aviso.\r\n  fastify.post(\"/vehicles/:number\", async (req, resp) => {\r\n    try {\r\n      const { number } = req.params as { number: string };\r\n\r\n      if (isNaN(+number)) {\r\n        resp.status(400).send(\"Insira um número de apartamento válido!\");\r\n        return;\r\n      }\r\n\r\n      const apartmentId = (\r\n        await prisma.apartments.findFirst({\r\n          where: {\r\n            number: +number,\r\n          },\r\n        })\r\n      )?.id;\r\n\r\n      if (!apartmentId) {\r\n        resp.status(404).send(\"Nenhum apartamento encontrado!\");\r\n        return;\r\n      }\r\n\r\n      const { brand, model, plate, type, cpf } = req.body as Vehicles & {cpf: string};\r\n\r\n      const person = await prisma.people.findUnique({\r\n        where: {\r\n            cpf\r\n        }\r\n      })\r\n      if (!person) {\r\n        resp.status(404).send(\"Nenhum CPF encontrado!\");\r\n        return;\r\n      }\r\n\r\n      const numberOfVehicles = await prisma.vehicles.count({\r\n        where: {\r\n          peopleId: person.id\r\n        }\r\n      });\r\n      \r\n      if (numberOfVehicles >= 2) {\r\n        resp.status(400).send(\"Essa pessoa já possui 2 veículos. Não é permitido adicionar mais.\");\r\n        return;\r\n      }\r\n\r\n      const newVehicle = await prisma.vehicles.create({\r\n        data: {\r\n            brand,\r\n            model,\r\n            plate,\r\n            type,\r\n            apartmentId,\r\n            peopleId: person.id\r\n        },\r\n      });\r\n      return newVehicle;\r\n    } catch (error) {\r\n      resp.status(500).send(\"Deu merda!\");\r\n      console.log(error)\r\n    }\r\n  });\r\n  // Rota para exibir todos os veículos\r\n  fastify.get(\"/vehicles\", async (req, reply) => {\r\n    try {\r\n      const vehicles = await prisma.vehicles.findMany();\r\n\r\n      return vehicles;\r\n    } catch (error) {\r\n      fastify.log.error(error);\r\n      reply.status(500).send({ error: \"Erro ao obter os veículos\" });\r\n    }\r\n  })\r\n  // Rota para deletar um aviso.\r\n  fastify.delete(\"/vehicles/:id\", async (req, resp) => {\r\n    try {\r\n      const { id } = req.params as { id: string };\r\n      const vehicles = await prisma.vehicles.findUnique({\r\n        where: {\r\n          id: id,\r\n        },\r\n      });\r\n      if (!vehicles) {\r\n        return resp.status(404).send(\"Veículo não encontrado\");\r\n      }\r\n      await prisma.vehicles.delete({\r\n        where: {\r\n          id: id,\r\n        },\r\n      });\r\n    } catch (error) {\r\n      console.error(error);\r\n      resp.status(500).send(\"Ocorreu um erro ao deletar o veículo.\");\r\n    }\r\n  });\r\n}\r\n"
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/routes/Fines.ts": {
+      "lineLengths": [
+        13,
+        62,
+        23,
+        59,
+        31,
+        32,
+        59,
+        16,
+        74,
+        62,
+        22,
+        23,
+        25,
+        28,
+        17,
+        16,
+        31,
+        28,
+        49,
+        12,
+        12,
+        53,
+        56,
+        13,
+        42,
+        33,
+        81,
+        23,
+        13,
+        83,
+        24,
+        36,
+        18,
+        20,
+        31,
+        72,
+        23,
+        13,
+        53,
+        95,
+        125,
+        13,
+        70,
+        23,
+        26,
+        27,
+        32,
+        40,
+        18,
+        15,
+        27,
+        9,
+        23,
+        48,
+        9,
+        7,
+        39,
+        61,
+        16,
+        63,
+        29,
+        28,
+        38,
+        74,
+        12,
+        12,
+        42,
+        60,
+        16,
+        57,
+        62,
+        29,
+        16,
+        28,
+        28,
+        38,
+        71,
+        12,
+        12,
+        39,
+        63,
+        16,
+        57,
+        64,
+        23,
+        24,
+        17,
+        16,
+        29,
+        68,
+        14,
+        43,
+        23,
+        24,
+        17,
+        16,
+        28,
+        34,
+        74,
+        12,
+        12,
+        1,
+        22,
+        7672
+      ],
+      "data": {
+        "version": 3,
+        "file": "C:/Users/Jonatas/Documents/Jonatas/Programação/Predium-BackEnd/src/routes/Fines.ts",
+        "sources": [
+          "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%25C3%25A7%25C3%25A3o/Predium-BackEnd/src/routes/Fines.ts"
+        ],
+        "names": [],
+        "mappings": ";;;AACA,2DAAkD;AAG3C,KAAK,UAAU,KAAK,CAAC,OAAwB;IAClD,4BAA4B;IAC9B,uDAAuD;IACvD,YAAY;IACZ,sEAAsE;IAEtE,0DAA0D;IAC1D,kBAAkB;IAClB,mBAAmB;IACnB,qBAAqB;IACrB,wBAAwB;IACxB,aAAa;IACb,YAAY;IACZ,2BAA2B;IAC3B,wBAAwB;IACxB,6CAA6C;IAC7C,QAAQ;IACR,QAAQ;IACN,iDAAiD;IACjD,OAAO,CAAC,IAAI,CAAC,eAAe,EAAE,KAAK,EAAE,GAAG,EAAE,IAAI,EAAE,EAAE;QAChD,IAAI;YACF,MAAM,EAAE,MAAM,EAAE,GAAG,GAAG,CAAC,MAA4B,CAAC;YAEpD,IAAI,KAAK,CAAC,CAAC,MAAM,CAAC,EAAE;gBAClB,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,yCAAyC,CAAC,CAAC;gBACjE,OAAO;aACR;YAED,MAAM,WAAW,GAAG,CAClB,MAAM,qBAAM,CAAC,UAAU,CAAC,SAAS,CAAC;gBAChC,KAAK,EAAE;oBACL,MAAM,EAAE,CAAC,MAAM;iBAChB;aACF,CAAC,CACH,EAAE,EAAE,CAAC;YAEN,IAAI,CAAC,WAAW,EAAE;gBAChB,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,gCAAgC,CAAC,CAAC;gBACxD,OAAO;aACR;YAED,MAAM,EAAE,KAAK,EAAE,MAAM,EAAE,IAAI,EAAE,GAAG,GAAG,CAAC,IAAa,CAAC;YAElD,IAAI,MAAM,KAAK,UAAU,IAAI,MAAM,KAAK,mBAAmB,IAAI,MAAM,KAAK,MAAM,EAAC;gBAC/E,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,qFAAqF,CAAC,CAAA;aAC7G;YAED,MAAM,OAAO,GAAG,MAAM,qBAAM,CAAC,KAAK,CAAC,MAAM,CAAC;gBACxC,IAAI,EAAE;oBACJ,KAAK;oBACL,MAAM;oBACN,WAAW;oBACX,IAAI,EAAE,IAAI,IAAI,CAAC,IAAI,CAAC;iBACrB;aACF,CAAC,CAAC;YACH,OAAO,OAAO,CAAC;SAChB;QAAC,OAAO,KAAK,EAAE;YACd,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,YAAY,CAAC,CAAC;SACrC;IACH,CAAC,CAAC,CAAC;IACH,mCAAmC;IACrC,yDAAyD;IACzD,YAAY;IACZ,2DAA2D;IAE3D,yBAAyB;IACzB,wBAAwB;IACxB,kCAAkC;IAClC,sEAAsE;IACtE,QAAQ;IACR,QAAQ;IACR,sCAAsC;IACtC,wDAAwD;IACxD,YAAY;IACZ,qDAAqD;IACrD,0DAA0D;IAC1D,yBAAyB;IACzB,YAAY;IACZ,wBAAwB;IACxB,wBAAwB;IACxB,kCAAkC;IAClC,mEAAmE;IACnE,QAAQ;IACR,QAAQ;IACR,mCAAmC;IACnC,2DAA2D;IAC3D,YAAY;IACZ,qDAAqD;IACrD,4DAA4D;IAC5D,mBAAmB;IACnB,oBAAoB;IACpB,aAAa;IACb,YAAY;IACZ,yBAAyB;IACzB,gEAAgE;IAChE,UAAU;IACV,uCAAuC;IACvC,mBAAmB;IACnB,oBAAoB;IACpB,aAAa;IACb,YAAY;IACZ,wBAAwB;IACxB,8BAA8B;IAC9B,sEAAsE;IACtE,QAAQ;IACR,QAAQ;AACR,CAAC;AA1GD,sBA0GC",
+        "sourcesContent": [
+          "import { FastifyInstance } from \"fastify\";\r\nimport { prisma } from \"../database/prismaClient\";\r\nimport { Fines } from \"@prisma/client\";\r\n\r\nexport async function Fines(fastify: FastifyInstance) {\r\n  // Rota para criar um aviso.\r\n//   fastify.post(\"/newwarning\", async (req, resp) => {\r\n//     try {\r\n//       const { apartmentId, details, title } = req.body as Warnings;\r\n\r\n//       const newWarning = await prisma.warnings.create({\r\n//         data: {\r\n//           title,\r\n//           details,\r\n//           apartmentId\r\n//         },\r\n//       });\r\n//       return newWarning;\r\n//     } catch (error) {\r\n//       resp.status(500).send(\"Deu merda!\");\r\n//     }\r\n//   });\r\n  // Rota para criar uma multa para um apartamento.\r\n  fastify.post(\"/fine/:number\", async (req, resp) => {\r\n    try {\r\n      const { number } = req.params as { number: string };\r\n\r\n      if (isNaN(+number)) {\r\n        resp.status(400).send(\"Insira um número de apartamento válido!\");\r\n        return;\r\n      }\r\n\r\n      const apartmentId = (\r\n        await prisma.apartments.findFirst({\r\n          where: {\r\n            number: +number,\r\n          },\r\n        })\r\n      )?.id;\r\n\r\n      if (!apartmentId) {\r\n        resp.status(404).send(\"Nenhum apartamento encontrado!\");\r\n        return;\r\n      }\r\n\r\n      const { value, status, date } = req.body as Fines;\r\n      \r\n      if (status !== \"Canceled\" && status !== \"PaymentInProgress\" && status !== \"Paid\"){\r\n        resp.status(404).send(\"Opções de status inválidas. Opções válidas são: Canceled, PaymentInProgress & Paid.\")\r\n      }\r\n      \r\n      const newFine = await prisma.fines.create({\r\n        data: {\r\n          value,\r\n          status,\r\n          apartmentId,\r\n          date: new Date(date)\r\n        },\r\n      });\r\n      return newFine;\r\n    } catch (error) {\r\n      resp.status(500).send(\"Deu merda!\");\r\n    }\r\n  });\r\n  // Rota para exibir todos os avisos\r\n//   fastify.get(\"/warnings\", async (request, reply) => {\r\n//     try {\r\n//       const warnings = await prisma.warnings.findMany();\r\n\r\n//       return warnings;\r\n//     } catch (error) {\r\n//       fastify.log.error(error);\r\n//       reply.status(500).send({ error: \"Erro ao obter os avisos\" });\r\n//     }\r\n//   });\r\n//   //Rota para exibir um único aviso\r\n//   fastify.get(\"/warnings/:id\", async (req, resp) => {\r\n//     try {\r\n//       const { id } = req.params as { id: string };\r\n//       const warning = await prisma.warnings.findFirst({\r\n//         where: { id },\r\n//       });\r\n//       return warning;\r\n//     } catch (error) {\r\n//       fastify.log.error(error);\r\n//       resp.status(500).send({ error: \"Erro ao obter o aviso\" });\r\n//     }\r\n//   });\r\n//   // Rota para deletar um aviso.\r\n//   fastify.delete(\"/warnings/:id\", async (req, resp) => {\r\n//     try {\r\n//       const { id } = req.params as { id: string };\r\n//       const warnings = await prisma.warnings.findUnique({\r\n//         where: {\r\n//           id: id,\r\n//         },\r\n//       });\r\n//       if (!warnings) {\r\n//         return resp.status(404).send(\"Aviso não encontrado\");\r\n//       }\r\n//       await prisma.warnings.delete({\r\n//         where: {\r\n//           id: id,\r\n//         },\r\n//       });\r\n//     } catch (error) {\r\n//       console.error(error);\r\n//       resp.status(500).send(\"Ocorreu um erro ao deletar o aviso.\");\r\n//     }\r\n//   });\r\n}\r\n"
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/middleware/Cors.ts": {
+      "lineLengths": [
+        13,
+        62,
+        29,
+        19,
+        28,
+        44,
+        2,
+        23,
+        35,
+        64,
+        33,
+        9,
+        14,
+        62,
+        9,
+        6,
+        55,
+        54,
+        2,
+        1832
+      ],
+      "data": {
+        "version": 3,
+        "file": "C:/Users/Jonatas/Documents/Jonatas/Programação/Predium-BackEnd/src/middleware/Cors.ts",
+        "sources": [
+          "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%25C3%25A7%25C3%25A3o/Predium-BackEnd/src/middleware/Cors.ts"
+        ],
+        "names": [],
+        "mappings": ";;;AAEA,MAAM,SAAS,GAAG;IACd,uBAAuB;IACvB,wCAAwC;CACzC,CAAC;AAES,QAAA,WAAW,GAAuB;IAC3C,MAAM,EAAE,CAAC,MAAM,EAAE,QAAQ,EAAE,EAAE;QAC3B,IAAI,CAAC,MAAM,IAAI,SAAS,CAAC,QAAQ,CAAC,MAAM,CAAC,CAAC,IAAI,CAAC,MAAM,EAAE;YACrD,QAAQ,CAAC,IAAI,EAAE,IAAI,CAAC,CAAC;SACtB;aAAM;YACL,QAAQ,CAAC,IAAI,KAAK,CAAC,qBAAqB,CAAC,EAAE,KAAK,CAAC,CAAC;SACnD;IACH,CAAC;IACD,OAAO,EAAE,CAAC,KAAK,EAAE,MAAM,EAAE,KAAK,EAAE,QAAQ,EAAE,OAAO,CAAC;IAClD,cAAc,EAAE,CAAC,cAAc,EAAE,eAAe,CAAC;CAClD,CAAC",
+        "sourcesContent": [
+          "import { FastifyCorsOptions } from \"@fastify/cors\";\r\n\r\nconst whiteList = [\r\n    \"http://localhost:5173\",\r\n    \"https://predium-big-village.vercel.app\"\r\n  ];\r\n\r\nexport const corsOptions: FastifyCorsOptions = {\r\n    origin: (origin, callback) => {\r\n      if ((origin && whiteList.includes(origin)) ?? !origin) {\r\n        callback(null, true);\r\n      } else {\r\n        callback(new Error(\"Not allowed by CORS\"), false);\r\n      }\r\n    },\r\n    methods: [\"GET\", \"POST\", \"PUT\", \"DELETE\", \"PATCH\"],\r\n    allowedHeaders: [\"Content-Type\", \"Authorization\"],\r\n  };"
+        ],
+        "sourceRoot": ""
+      }
+    }
+  }
+}

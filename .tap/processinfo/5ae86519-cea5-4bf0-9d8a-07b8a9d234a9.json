@@ -1,0 +1,44 @@
+{
+  "date": "2023-11-12T20:51:16.853Z",
+  "argv": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\tests\\Warning.test.ts"
+  ],
+  "execArgv": [
+    "--loader=file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/esm.mjs",
+    "--loader=file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/node_modules/@tapjs/mock/dist/esm/legacy-loader.mjs",
+    "--no-warnings",
+    "--enable-source-maps",
+    "--loader=file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/node_modules/@tapjs/processinfo/dist/esm/loader-legacy.mjs"
+  ],
+  "NODE_OPTIONS": "\"--loader=file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/node_modules/@tapjs/processinfo/dist/esm/loader-legacy.mjs\" \"--no-warnings\"",
+  "cwd": "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd",
+  "pid": 14972,
+  "ppid": 6800,
+  "parent": null,
+  "uuid": "5ae86519-cea5-4bf0-9d8a-07b8a9d234a9",
+  "files": [
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\tests\\Warning.test.ts",
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\app.ts",
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\People.ts",
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\database\\prismaClient.ts",
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\Apartaments.ts",
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\Pet.ts",
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\User.ts",
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\Login.ts",
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\Residents.ts",
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\Warnings.ts",
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\Vehicles.ts",
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\Fines.ts",
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\middleware\\Cors.ts"
+  ],
+  "sources": {},
+  "root": "5ae86519-cea5-4bf0-9d8a-07b8a9d234a9",
+  "externalID": "src/tests/Warning.test.ts",
+  "code": 0,
+  "signal": null,
+  "runtime": 3797.9762,
+  "globalsAdded": [
+    "NODE_CLIENT"
+  ]
+}

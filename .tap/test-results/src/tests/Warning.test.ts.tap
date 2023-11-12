@@ -1,0 +1,9 @@
+TAP version 14
+{"level":30,"time":1699822279009,"pid":14972,"hostname":"DESKTOP-3IFGKC7","reqId":"req-1","req":{"method":"GET","url":"/warnings","hostname":"localhost:80","remoteAddress":"127.0.0.1"},"msg":"incoming request"}
+{"level":30,"time":1699822280631,"pid":14972,"hostname":"DESKTOP-3IFGKC7","reqId":"req-1","res":{"statusCode":200},"responseTime":1619.9246000051498,"msg":"request completed"}
+# Subtest: shoulds return warnings list
+    ok 1 - should be equivalent
+    1..1
+ok 1 - shoulds return warnings list # time=1723.12ms
+
+1..1

@@ -8,6 +8,7 @@ import { pet } from "./routes/Pet";
 import { Residents } from "./routes/Residents";
 import { Warnings } from "./routes/Warnings";
 import { Vehicles } from "./routes/Vehicles";
+import { Fines } from "./routes/Fines";
 
 const whiteList = [
   "http://localhost:5173",
@@ -38,6 +39,7 @@ server.register(login);
 server.register(Residents);
 server.register(Warnings);
 server.register(Vehicles);
+server.register(Fines);
 
 server
   .listen({

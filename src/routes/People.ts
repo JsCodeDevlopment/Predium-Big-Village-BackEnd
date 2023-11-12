@@ -39,7 +39,7 @@ export async function People(fastify: FastifyInstance) {
             id: id
         }
        })
-    }catch (error) {
+    } catch (error) {
         console.error(error);
         resp.status(500).send('Ocorreu um erro ao deletar o usuário.');
       }

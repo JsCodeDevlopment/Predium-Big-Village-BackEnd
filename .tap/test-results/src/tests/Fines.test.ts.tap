@@ -1,0 +1,81 @@
+TAP version 14
+{"level":30,"time":1700152373832,"pid":448,"hostname":"DESKTOP-3IFGKC7","reqId":"req-1","req":{"method":"GET","url":"/fines","hostname":"localhost:80","remoteAddress":"127.0.0.1"},"msg":"incoming request"}
+{"level":50,"time":1700152378877,"pid":448,"hostname":"DESKTOP-3IFGKC7","err":{"type":"PrismaClientInitializationError","message":"\nInvalid `prisma.fines.findMany()` invocation in\nC:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\Fines.ts:59:40\n\n  56 // Rota para exibir todos as multas\n  57 fastify.get(\"/fines\", async (req, reply) => {\n  58   try {\n→ 59     const fines = await prisma.fines.findMany(\nCan't reach database server at `ep-holy-shape-79221715.us-east-2.aws.neon.tech`:`5432`\n\nPlease make sure your database server is running at `ep-holy-shape-79221715.us-east-2.aws.neon.tech`:`5432`.","stack":"PrismaClientInitializationError: \nInvalid `prisma.fines.findMany()` invocation in\nC:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\Fines.ts:59:40\n\n  56 // Rota para exibir todos as multas\n  57 fastify.get(\"/fines\", async (req, reply) => {\n  58   try {\n→ 59     const fines = await prisma.fines.findMany(\nCan't reach database server at `ep-holy-shape-79221715.us-east-2.aws.neon.tech`:`5432`\n\nPlease make sure your database server is running at `ep-holy-shape-79221715.us-east-2.aws.neon.tech`:`5432`.\n    at Cn.handleRequestError (C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\node_modules\\@prisma\\client\\runtime\\library.js:123:7090)\n    at Cn.handleAndLogRequestError (C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\node_modules\\@prisma\\client\\runtime\\library.js:123:6206)\n    at Cn.request (C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\node_modules\\@prisma\\client\\runtime\\library.js:123:5926)\n    at async l (C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\node_modules\\@prisma\\client\\runtime\\library.js:128:9968)\n    at async Object.<anonymous> (C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\Fines.ts:59:21)","name":"PrismaClientInitializationError","clientVersion":"5.5.2"},"msg":"\nInvalid `prisma.fines.findMany()` invocation in\nC:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\Fines.ts:59:40\n\n  56 // Rota para exibir todos as multas\n  57 fastify.get(\"/fines\", async (req, reply) => {\n  58   try {\n→ 59     const fines = await prisma.fines.findMany(\nCan't reach database server at `ep-holy-shape-79221715.us-east-2.aws.neon.tech`:`5432`\n\nPlease make sure your database server is running at `ep-holy-shape-79221715.us-east-2.aws.neon.tech`:`5432`."}
+# Subtest: shoulds return fines list
+    not ok 1 - should be equivalent
+      ---
+      diff: |
+        --- expected
+        +++ actual
+        @@ -1,1 +1,1 @@
+        -200
+        +500
+      at:
+        fileName: ..\..\Programa%C3%A7%C3%A3o\Predium-BackEnd\src\tests\Fines.test.ts
+        lineNumber: 17
+        columnNumber: 5
+        typeName: Test
+        generated:
+          fileName: src/tests/Fines.test.ts
+          lineNumber: 18
+          columnNumber: 7
+      stack: >
+        Test.<anonymous> (src/tests/Fines.test.ts:18:7)
+        (../../Programa%C3%A7%C3%A3o/Predium-BackEnd/src/tests/Fines.test.ts:17:5)
+      ...
+    
+    1..1
+not ok 1 - shoulds return fines list # time=5206.598ms
+  ---
+  at:
+    fileName: ..\..\Programa%C3%A7%C3%A3o\Predium-BackEnd\src\tests\Fines.test.ts
+    lineNumber: 7
+    columnNumber: 1
+    typeName: Object
+    generated:
+      fileName: src/tests/Fines.test.ts
+      lineNumber: 10
+      columnNumber: 1
+  ...
+
+# Subtest: shoulds return fines list
+    not ok 1 - Cannot read properties of undefined (reading '/fine/:number')
+      ---
+      at:
+        fileName: ..\..\Programa%C3%A7%C3%A3o\Predium-BackEnd\src\tests\Fines.test.ts
+        lineNumber: 59
+        columnNumber: 7
+        typeName: Test
+        generated:
+          fileName: src/tests/Fines.test.ts
+          lineNumber: 55
+          columnNumber: 11
+      stack: >
+        Test.<anonymous> (src/tests/Fines.test.ts:55:11)
+        (../../Programa%C3%A7%C3%A3o/Predium-BackEnd/src/tests/Fines.test.ts:59:7)
+      
+        Test.[maybeEmitEnd] (node_modules/minipass/dist/commonjs/index.js:713:18) (node_modules/minipass/src/index.ts:1018:12)
+      
+        Test.end (node_modules/minipass/dist/commonjs/index.js:466:33) (node_modules/minipass/src/index.ts:741:61)
+      
+        Parser.emitComplete (node_modules/tap-parser/dist/commonjs/index.js:416:18) (node_modules/tap-parser/src/index.ts:533:12)
+      
+        Parser.end (node_modules/tap-parser/dist/commonjs/index.js:397:14) (node_modules/tap-parser/src/index.ts:507:10)
+      ...
+    
+    1..1
+not ok 2 - shoulds return fines list # time=65.451ms
+  ---
+  at:
+    fileName: ..\..\Programa%C3%A7%C3%A3o\Predium-BackEnd\src\tests\Fines.test.ts
+    lineNumber: 20
+    columnNumber: 1
+    typeName: Object
+    generated:
+      fileName: src/tests/Fines.test.ts
+      lineNumber: 20
+      columnNumber: 1
+  ...
+
+{"level":30,"time":1700152378886,"pid":448,"hostname":"DESKTOP-3IFGKC7","reqId":"req-1","res":{"statusCode":500},"responseTime":5052.706300020218,"msg":"request completed"}
+1..2

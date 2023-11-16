@@ -1,9 +1,42 @@
 TAP version 14
-{"level":30,"time":1699822279009,"pid":14972,"hostname":"DESKTOP-3IFGKC7","reqId":"req-1","req":{"method":"GET","url":"/warnings","hostname":"localhost:80","remoteAddress":"127.0.0.1"},"msg":"incoming request"}
-{"level":30,"time":1699822280631,"pid":14972,"hostname":"DESKTOP-3IFGKC7","reqId":"req-1","res":{"statusCode":200},"responseTime":1619.9246000051498,"msg":"request completed"}
+{"level":30,"time":1700152373896,"pid":5404,"hostname":"DESKTOP-3IFGKC7","reqId":"req-1","req":{"method":"GET","url":"/warnings","hostname":"localhost:80","remoteAddress":"127.0.0.1"},"msg":"incoming request"}
+{"level":50,"time":1700152378940,"pid":5404,"hostname":"DESKTOP-3IFGKC7","err":{"type":"PrismaClientInitializationError","message":"\nInvalid `prisma.warnings.findMany()` invocation in\nC:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\Warnings.ts:63:46\n\n  60 // Rota para exibir todos os avisos\n  61 fastify.get(\"/warnings\", async (request, reply) => {\n  62   try {\n→ 63     const warnings = await prisma.warnings.findMany(\nCan't reach database server at `ep-holy-shape-79221715.us-east-2.aws.neon.tech`:`5432`\n\nPlease make sure your database server is running at `ep-holy-shape-79221715.us-east-2.aws.neon.tech`:`5432`.","stack":"PrismaClientInitializationError: \nInvalid `prisma.warnings.findMany()` invocation in\nC:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\Warnings.ts:63:46\n\n  60 // Rota para exibir todos os avisos\n  61 fastify.get(\"/warnings\", async (request, reply) => {\n  62   try {\n→ 63     const warnings = await prisma.warnings.findMany(\nCan't reach database server at `ep-holy-shape-79221715.us-east-2.aws.neon.tech`:`5432`\n\nPlease make sure your database server is running at `ep-holy-shape-79221715.us-east-2.aws.neon.tech`:`5432`.\n    at Cn.handleRequestError (C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\node_modules\\@prisma\\client\\runtime\\library.js:123:7090)\n    at Cn.handleAndLogRequestError (C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\node_modules\\@prisma\\client\\runtime\\library.js:123:6206)\n    at Cn.request (C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\node_modules\\@prisma\\client\\runtime\\library.js:123:5926)\n    at async l (C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\node_modules\\@prisma\\client\\runtime\\library.js:128:9968)\n    at async Object.<anonymous> (C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\Warnings.ts:63:24)","name":"PrismaClientInitializationError","clientVersion":"5.5.2"},"msg":"\nInvalid `prisma.warnings.findMany()` invocation in\nC:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\Warnings.ts:63:46\n\n  60 // Rota para exibir todos os avisos\n  61 fastify.get(\"/warnings\", async (request, reply) => {\n  62   try {\n→ 63     const warnings = await prisma.warnings.findMany(\nCan't reach database server at `ep-holy-shape-79221715.us-east-2.aws.neon.tech`:`5432`\n\nPlease make sure your database server is running at `ep-holy-shape-79221715.us-east-2.aws.neon.tech`:`5432`."}
 # Subtest: shoulds return warnings list
-    ok 1 - should be equivalent
+    not ok 1 - should be equivalent
+      ---
+      diff: |
+        --- expected
+        +++ actual
+        @@ -1,1 +1,1 @@
+        -200
+        +500
+      at:
+        fileName: ..\..\Programa%C3%A7%C3%A3o\Predium-BackEnd\src\tests\Warning.test.ts
+        lineNumber: 16
+        columnNumber: 5
+        typeName: Test
+        generated:
+          fileName: src/tests/Warning.test.ts
+          lineNumber: 17
+          columnNumber: 7
+      stack: >
+        Test.<anonymous> (src/tests/Warning.test.ts:17:7)
+        (../../Programa%C3%A7%C3%A3o/Predium-BackEnd/src/tests/Warning.test.ts:16:5)
+      ...
+    
     1..1
-ok 1 - shoulds return warnings list # time=1723.12ms
+not ok 1 - shoulds return warnings list # time=5208.759ms
+  ---
+  at:
+    fileName: ..\..\Programa%C3%A7%C3%A3o\Predium-BackEnd\src\tests\Warning.test.ts
+    lineNumber: 6
+    columnNumber: 1
+    typeName: Object
+    generated:
+      fileName: src/tests/Warning.test.ts
+      lineNumber: 9
+      columnNumber: 1
+  ...
 
+{"level":30,"time":1700152378950,"pid":5404,"hostname":"DESKTOP-3IFGKC7","reqId":"req-1","res":{"statusCode":500},"responseTime":5051.597800016403,"msg":"request completed"}
 1..1

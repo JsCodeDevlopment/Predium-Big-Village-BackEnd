@@ -1,8 +1,8 @@
 {
-  "date": "2023-11-12T20:51:16.853Z",
+  "date": "2023-11-16T16:32:51.775Z",
   "argv": [
     "C:\\Program Files\\nodejs\\node.exe",
-    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\tests\\Warning.test.ts"
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\tests\\Fines.test.ts"
   ],
   "execArgv": [
     "--loader=file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/esm.mjs",
@@ -13,12 +13,12 @@
   ],
   "NODE_OPTIONS": "\"--loader=file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/node_modules/@tapjs/processinfo/dist/esm/loader-legacy.mjs\" \"--no-warnings\"",
   "cwd": "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd",
-  "pid": 14972,
-  "ppid": 6800,
+  "pid": 448,
+  "ppid": 1812,
   "parent": null,
-  "uuid": "5ae86519-cea5-4bf0-9d8a-07b8a9d234a9",
+  "uuid": "21b113f0-ee84-42ba-99fb-c3c5e01e342a",
   "files": [
-    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\tests\\Warning.test.ts",
+    "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\tests\\Fines.test.ts",
     "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\app.ts",
     "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\routes\\People.ts",
     "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\database\\prismaClient.ts",
@@ -33,11 +33,11 @@
     "C:\\Users\\Jonatas\\Documents\\Jonatas\\Programação\\Predium-BackEnd\\src\\middleware\\Cors.ts"
   ],
   "sources": {},
-  "root": "5ae86519-cea5-4bf0-9d8a-07b8a9d234a9",
-  "externalID": "src/tests/Warning.test.ts",
-  "code": 0,
+  "root": "21b113f0-ee84-42ba-99fb-c3c5e01e342a",
+  "externalID": "src/tests/Fines.test.ts",
+  "code": 1,
   "signal": null,
-  "runtime": 3797.9762,
+  "runtime": 7293.2746,
   "globalsAdded": [
     "NODE_CLIENT"
   ]

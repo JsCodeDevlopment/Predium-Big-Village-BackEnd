@@ -440,8 +440,8 @@
               "count": 1
             },
             {
-              "startOffset": 1993,
-              "endOffset": 2130,
+              "startOffset": 1945,
+              "endOffset": 1993,
               "count": 0
             }
           ],
@@ -541,7 +541,7 @@
           "ranges": [
             {
               "startOffset": 0,
-              "endOffset": 11342,
+              "endOffset": 12681,
               "count": 1
             }
           ],
@@ -552,7 +552,7 @@
           "ranges": [
             {
               "startOffset": 161,
-              "endOffset": 3646,
+              "endOffset": 3837,
               "count": 1
             }
           ],
@@ -562,8 +562,30 @@
           "functionName": "",
           "ranges": [
             {
-              "startOffset": 803,
-              "endOffset": 2041,
+              "startOffset": 257,
+              "endOffset": 1570,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 1639,
+              "endOffset": 1936,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 2010,
+              "endOffset": 2657,
               "count": 0
             }
           ],
@@ -610,7 +632,7 @@
       ]
     }
   ],
-  "timestamp": 1046871.969426,
+  "timestamp": 1377057.136341,
   "source-map-cache": {
     "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%C3%A7%C3%A3o/Predium-BackEnd/src/app.ts": {
       "lineLengths": [
@@ -1339,23 +1361,7 @@
         23,
         59,
         31,
-        32,
-        59,
-        16,
-        74,
-        62,
-        22,
-        23,
-        25,
-        28,
-        17,
-        16,
-        31,
-        28,
-        49,
-        12,
-        12,
-        53,
+        29,
         56,
         13,
         42,
@@ -1373,15 +1379,19 @@
         23,
         13,
         53,
-        95,
-        125,
+        40,
+        49,
+        36,
+        20,
+        32,
+        113,
         13,
         70,
         23,
         26,
         27,
         32,
-        40,
+        41,
         18,
         15,
         27,
@@ -1391,16 +1401,39 @@
         9,
         7,
         39,
-        61,
-        16,
-        63,
-        29,
-        28,
+        49,
+        13,
+        71,
+        25,
+        9,
+        23,
+        37,
+        73,
+        9,
+        7,
         38,
-        74,
-        12,
-        12,
-        42,
+        54,
+        13,
+        38,
+        72,
+        24,
+        27,
+        18,
+        15,
+        25,
+        69,
+        13,
+        54,
+        24,
+        27,
+        18,
+        15,
+        9,
+        23,
+        33,
+        73,
+        9,
+        7,
         60,
         16,
         57,
@@ -1437,7 +1470,7 @@
         12,
         1,
         22,
-        7672
+        8820
       ],
       "data": {
         "version": 3,
@@ -1446,9 +1479,9 @@
           "file:///C:/Users/Jonatas/Documents/Jonatas/Programa%25C3%25A7%25C3%25A3o/Predium-BackEnd/src/routes/Fines.ts"
         ],
         "names": [],
-        "mappings": ";;;AACA,2DAAkD;AAG3C,KAAK,UAAU,KAAK,CAAC,OAAwB;IAClD,4BAA4B;IAC9B,uDAAuD;IACvD,YAAY;IACZ,sEAAsE;IAEtE,0DAA0D;IAC1D,kBAAkB;IAClB,mBAAmB;IACnB,qBAAqB;IACrB,wBAAwB;IACxB,aAAa;IACb,YAAY;IACZ,2BAA2B;IAC3B,wBAAwB;IACxB,6CAA6C;IAC7C,QAAQ;IACR,QAAQ;IACN,iDAAiD;IACjD,OAAO,CAAC,IAAI,CAAC,eAAe,EAAE,KAAK,EAAE,GAAG,EAAE,IAAI,EAAE,EAAE;QAChD,IAAI;YACF,MAAM,EAAE,MAAM,EAAE,GAAG,GAAG,CAAC,MAA4B,CAAC;YAEpD,IAAI,KAAK,CAAC,CAAC,MAAM,CAAC,EAAE;gBAClB,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,yCAAyC,CAAC,CAAC;gBACjE,OAAO;aACR;YAED,MAAM,WAAW,GAAG,CAClB,MAAM,qBAAM,CAAC,UAAU,CAAC,SAAS,CAAC;gBAChC,KAAK,EAAE;oBACL,MAAM,EAAE,CAAC,MAAM;iBAChB;aACF,CAAC,CACH,EAAE,EAAE,CAAC;YAEN,IAAI,CAAC,WAAW,EAAE;gBAChB,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,gCAAgC,CAAC,CAAC;gBACxD,OAAO;aACR;YAED,MAAM,EAAE,KAAK,EAAE,MAAM,EAAE,IAAI,EAAE,GAAG,GAAG,CAAC,IAAa,CAAC;YAElD,IAAI,MAAM,KAAK,UAAU,IAAI,MAAM,KAAK,mBAAmB,IAAI,MAAM,KAAK,MAAM,EAAC;gBAC/E,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,qFAAqF,CAAC,CAAA;aAC7G;YAED,MAAM,OAAO,GAAG,MAAM,qBAAM,CAAC,KAAK,CAAC,MAAM,CAAC;gBACxC,IAAI,EAAE;oBACJ,KAAK;oBACL,MAAM;oBACN,WAAW;oBACX,IAAI,EAAE,IAAI,IAAI,CAAC,IAAI,CAAC;iBACrB;aACF,CAAC,CAAC;YACH,OAAO,OAAO,CAAC;SAChB;QAAC,OAAO,KAAK,EAAE;YACd,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,YAAY,CAAC,CAAC;SACrC;IACH,CAAC,CAAC,CAAC;IACH,mCAAmC;IACrC,yDAAyD;IACzD,YAAY;IACZ,2DAA2D;IAE3D,yBAAyB;IACzB,wBAAwB;IACxB,kCAAkC;IAClC,sEAAsE;IACtE,QAAQ;IACR,QAAQ;IACR,sCAAsC;IACtC,wDAAwD;IACxD,YAAY;IACZ,qDAAqD;IACrD,0DAA0D;IAC1D,yBAAyB;IACzB,YAAY;IACZ,wBAAwB;IACxB,wBAAwB;IACxB,kCAAkC;IAClC,mEAAmE;IACnE,QAAQ;IACR,QAAQ;IACR,mCAAmC;IACnC,2DAA2D;IAC3D,YAAY;IACZ,qDAAqD;IACrD,4DAA4D;IAC5D,mBAAmB;IACnB,oBAAoB;IACpB,aAAa;IACb,YAAY;IACZ,yBAAyB;IACzB,gEAAgE;IAChE,UAAU;IACV,uCAAuC;IACvC,mBAAmB;IACnB,oBAAoB;IACpB,aAAa;IACb,YAAY;IACZ,wBAAwB;IACxB,8BAA8B;IAC9B,sEAAsE;IACtE,QAAQ;IACR,QAAQ;AACR,CAAC;AA1GD,sBA0GC",
+        "mappings": "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",
         "sourcesContent": [
-          "import { FastifyInstance } from \"fastify\";\r\nimport { prisma } from \"../database/prismaClient\";\r\nimport { Fines } from \"@prisma/client\";\r\n\r\nexport async function Fines(fastify: FastifyInstance) {\r\n  // Rota para criar um aviso.\r\n//   fastify.post(\"/newwarning\", async (req, resp) => {\r\n//     try {\r\n//       const { apartmentId, details, title } = req.body as Warnings;\r\n\r\n//       const newWarning = await prisma.warnings.create({\r\n//         data: {\r\n//           title,\r\n//           details,\r\n//           apartmentId\r\n//         },\r\n//       });\r\n//       return newWarning;\r\n//     } catch (error) {\r\n//       resp.status(500).send(\"Deu merda!\");\r\n//     }\r\n//   });\r\n  // Rota para criar uma multa para um apartamento.\r\n  fastify.post(\"/fine/:number\", async (req, resp) => {\r\n    try {\r\n      const { number } = req.params as { number: string };\r\n\r\n      if (isNaN(+number)) {\r\n        resp.status(400).send(\"Insira um número de apartamento válido!\");\r\n        return;\r\n      }\r\n\r\n      const apartmentId = (\r\n        await prisma.apartments.findFirst({\r\n          where: {\r\n            number: +number,\r\n          },\r\n        })\r\n      )?.id;\r\n\r\n      if (!apartmentId) {\r\n        resp.status(404).send(\"Nenhum apartamento encontrado!\");\r\n        return;\r\n      }\r\n\r\n      const { value, status, date } = req.body as Fines;\r\n      \r\n      if (status !== \"Canceled\" && status !== \"PaymentInProgress\" && status !== \"Paid\"){\r\n        resp.status(404).send(\"Opções de status inválidas. Opções válidas são: Canceled, PaymentInProgress & Paid.\")\r\n      }\r\n      \r\n      const newFine = await prisma.fines.create({\r\n        data: {\r\n          value,\r\n          status,\r\n          apartmentId,\r\n          date: new Date(date)\r\n        },\r\n      });\r\n      return newFine;\r\n    } catch (error) {\r\n      resp.status(500).send(\"Deu merda!\");\r\n    }\r\n  });\r\n  // Rota para exibir todos os avisos\r\n//   fastify.get(\"/warnings\", async (request, reply) => {\r\n//     try {\r\n//       const warnings = await prisma.warnings.findMany();\r\n\r\n//       return warnings;\r\n//     } catch (error) {\r\n//       fastify.log.error(error);\r\n//       reply.status(500).send({ error: \"Erro ao obter os avisos\" });\r\n//     }\r\n//   });\r\n//   //Rota para exibir um único aviso\r\n//   fastify.get(\"/warnings/:id\", async (req, resp) => {\r\n//     try {\r\n//       const { id } = req.params as { id: string };\r\n//       const warning = await prisma.warnings.findFirst({\r\n//         where: { id },\r\n//       });\r\n//       return warning;\r\n//     } catch (error) {\r\n//       fastify.log.error(error);\r\n//       resp.status(500).send({ error: \"Erro ao obter o aviso\" });\r\n//     }\r\n//   });\r\n//   // Rota para deletar um aviso.\r\n//   fastify.delete(\"/warnings/:id\", async (req, resp) => {\r\n//     try {\r\n//       const { id } = req.params as { id: string };\r\n//       const warnings = await prisma.warnings.findUnique({\r\n//         where: {\r\n//           id: id,\r\n//         },\r\n//       });\r\n//       if (!warnings) {\r\n//         return resp.status(404).send(\"Aviso não encontrado\");\r\n//       }\r\n//       await prisma.warnings.delete({\r\n//         where: {\r\n//           id: id,\r\n//         },\r\n//       });\r\n//     } catch (error) {\r\n//       console.error(error);\r\n//       resp.status(500).send(\"Ocorreu um erro ao deletar o aviso.\");\r\n//     }\r\n//   });\r\n}\r\n"
+          "import { FastifyInstance } from \"fastify\";\r\nimport { prisma } from \"../database/prismaClient\";\r\nimport { Fines } from \"@prisma/client\";\r\n\r\nexport async function Fines(fastify: FastifyInstance) {\r\n  // Rota para criar multas\r\n  fastify.post(\"/fine/:number\", async (req, resp) => {\r\n    try {\r\n      const { number } = req.params as { number: string };\r\n\r\n      if (isNaN(+number)) {\r\n        resp.status(400).send(\"Insira um número de apartamento válido!\");\r\n        return;\r\n      }\r\n\r\n      const apartmentId = (\r\n        await prisma.apartments.findFirst({\r\n          where: {\r\n            number: +number,\r\n          },\r\n        })\r\n      )?.id;\r\n\r\n      if (!apartmentId) {\r\n        resp.status(404).send(\"Nenhum apartamento encontrado!\");\r\n        return;\r\n      }\r\n\r\n      const { value, status, date } = req.body as Fines;\r\n\r\n      if (\r\n        status !== \"Canceled\" &&\r\n        status !== \"PaymentInProgress\" &&\r\n        status !== \"Paid\"\r\n      ) {\r\n        resp\r\n          .status(404)\r\n          .send(\r\n            \"Opções de status inválidas. Opções válidas são: Canceled, PaymentInProgress & Paid.\"\r\n          );\r\n      }\r\n\r\n      const newFine = await prisma.fines.create({\r\n        data: {\r\n          value,\r\n          status,\r\n          apartmentId,\r\n          date: new Date(date),\r\n        },\r\n      });\r\n      return newFine;\r\n    } catch (error) {\r\n      resp.status(500).send(\"Deu merda!\");\r\n    }\r\n  });\r\n  // Rota para exibir todos as multas\r\n  fastify.get(\"/fines\", async (req, reply) => {\r\n    try {\r\n      const fines = await prisma.fines.findMany();\r\n\r\n      return fines;\r\n    } catch (error) {\r\n      fastify.log.error(error);\r\n      reply.status(500).send({ error: \"Erro ao obter as multas\" });\r\n    }\r\n  });\r\n  //Rota para deletar um único aviso\r\n  fastify.delete(\"/fine/:id\", async (req, resp) => {\r\n    try {\r\n      const { id } = req.params as { id: string };\r\n\r\n      const fines = await prisma.fines.findUnique({\r\n        where: {\r\n          id: id,\r\n        },\r\n      });\r\n\r\n      if (!fines) {\r\n        return resp.status(404).send(\"Multa não encontrada\");\r\n      }\r\n\r\n      await prisma.fines.delete({\r\n        where: {\r\n          id: id,\r\n        },\r\n      });\r\n    } catch (error) {\r\n      console.error(error);\r\n      resp.status(500).send(\"Ocorreu um erro ao deletar a multa.\");\r\n    }\r\n  });\r\n\r\n  //   fastify.get(\"/warnings/:id\", async (req, resp) => {\r\n  //     try {\r\n  //       const { id } = req.params as { id: string };\r\n  //       const warning = await prisma.warnings.findFirst({\r\n  //         where: { id },\r\n  //       });\r\n  //       return warning;\r\n  //     } catch (error) {\r\n  //       fastify.log.error(error);\r\n  //       resp.status(500).send({ error: \"Erro ao obter o aviso\" });\r\n  //     }\r\n  //   });\r\n  //   // Rota para deletar um aviso.\r\n  //   fastify.delete(\"/warnings/:id\", async (req, resp) => {\r\n  //     try {\r\n  //       const { id } = req.params as { id: string };\r\n  //       const warnings = await prisma.warnings.findUnique({\r\n  //         where: {\r\n  //           id: id,\r\n  //         },\r\n  //       });\r\n  //       if (!warnings) {\r\n  //         return resp.status(404).send(\"Aviso não encontrado\");\r\n  //       }\r\n  //       await prisma.warnings.delete({\r\n  //         where: {\r\n  //           id: id,\r\n  //         },\r\n  //       });\r\n  //     } catch (error) {\r\n  //       console.error(error);\r\n  //       resp.status(500).send(\"Ocorreu um erro ao deletar o aviso.\");\r\n  //     }\r\n  //   });\r\n}\r\n"
         ],
         "sourceRoot": ""
       }
